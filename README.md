@@ -55,7 +55,7 @@ For consistent ```git``` management, the following extensions and their settings
 
 ## Get Started
 
-1. Clone the template: ```npx degit gacallea/elm_vite_tailwind_template my-elm-app```
+1. Clone the template: ```npx degit gacallea/elm_vite_tailwind_template#main my-elm-app```
 2. Enter the project: ```cd my-elm-app```
 3. Install dependencies: ```npm install```
 4. Started development: ```npm run dev```
