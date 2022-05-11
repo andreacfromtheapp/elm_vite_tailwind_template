@@ -34,6 +34,7 @@ A very opinionated default template for building [Elm](https://elm-lang.org/) ap
 
 #### Lint/Format
 
+- [Elm Format](https://github.com/avh4/elm-format)
 - [Standard JS](https://standardjs.com/)
 - [Stylelint](https://stylelint.io/)
 - [Prettier](https://prettier.io/)
@@ -42,7 +43,7 @@ A very opinionated default template for building [Elm](https://elm-lang.org/) ap
 
 #### Elm + Tailwind CSS
 
-- [@max_hoffmann](https://twitter.com/max_hoffmann) amazing [Tailwind CSS in Elm for VSCode](https://max.hn/thoughts/using-tailwind-css-in-elm-and-vscode) changes are implemented into the provided workspace settings.
+- [@max_hoffmann](https://twitter.com/max_hoffmann) amazing [Tailwind CSS in Elm for VSCode](https://max.hn/thoughts/using-tailwind-css-in-elm-and-vscode) changes are implemented.
 
 #### Git, GitLab, GitHub
 
