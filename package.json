@@ -1,0 +1,52 @@
+{
+  "name": "vite_elm_taiwind",
+  "author": "Andrea Callea",
+  "description": "elm_vite_tailwind_template",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.7",
+    "elm-review": "^2.7.2",
+    "elm-test": "^0.19.1-revision7",
+    "elm-tooling": "^1.8.0",
+    "postcss": "^8.4.13",
+    "postcss-html": "^1.4.1",
+    "prettier": "^2.6.2",
+    "standard": "^17.0.0",
+    "standard-markdown": "^7.1.0",
+    "stylelint": "^14.8.2",
+    "stylelint-config-html": "^1.0.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.7",
+    "vite-imagetools": "^4.0.3",
+    "vite-plugin-compress": "^2.1.1",
+    "vite-plugin-elm": "^2.6.1",
+    "vite-plugin-favicon": "^1.0.8",
+    "vite-plugin-webfont-dl": "^2.0.0"
+  },
+  "scripts": {
+    "postinstall": "elm-tooling install",
+    "dev": "vite",
+    "prebuild": "elm-tooling install",
+    "build": "vite build",
+    "preview": "vite preview",
+    "standard": "standard --fix src/**/*.js",
+    "markdown": "standard-markdown --fix src/**/*.md",
+    "review": "elm-review",
+    "test": "elm-test-rs"
+  },
+  "standard": {
+    "ignore": [
+      "public",
+      "dist",
+      "tmp.js"
+    ]
+  },
+  "dependencies": {
+    "sharp": "^0.30.4"
+  }
+}

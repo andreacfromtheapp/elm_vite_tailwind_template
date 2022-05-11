@@ -1,0 +1,131 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.tabCompletion": "on",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.quickSuggestionsDelay": 0,
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.showPushSuccessNotification": true,
+  "gitlens.defaultDateFormat": "ddd, MMM Do YYYY, h:mm:ss A",
+  "gitlens.defaultDateShortFormat": "YYYY MMM D hA",
+  "gitlens.keymap": "chorded",
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlab.showPipelineUpdateNotifications": true,
+  "gitlab.showIssueLinkOnStatusBar": true,
+  "gitlab.showMrStatusOnStatusBar": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "html-css-class-completion.enableEmmetSupport": true,
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "typescript.format.enable": false,
+  "typescript.validate.enable": false,
+  "standard.enable": true,
+  "standard.engine": "standard",
+  "standard.autoFixOnSave": true,
+  "standard.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "json.schemas": [],
+  "json.format.enable": false,
+  "yaml.format.enable": false,
+  "yaml.validate": false,
+  "tailwindCSS.includeLanguages": {
+    "elm": "html"
+  },
+  "[elm]": {
+    "tailwindCSS.experimental.classRegex": [
+      "\\bclass[\\s(<|]+\"([^\"]*)\"",
+      "\\bclass[\\s(]+\"[^\"]*\"[\\s+]+\"([^\"]*)\"",
+      "\\bclass[\\s<|]+\"[^\"]*\"\\s*\\+{2}\\s*\"([^\"]*)\"",
+      "\\bclass[\\s<|]+\"[^\"]*\"\\s*\\+{2}\\s*\"[^\"]*\"\\s*\\+{2}\\s*\"([^\"]*)\"",
+      "\\bclass[\\s<|]+\"[^\"]*\"\\s*\\+{2}\\s*\"[^\"]*\"\\s*\\+{2}\\s*\"[^\"]*\"\\s*\\+{2}\\s*\"([^\"]*)\"",
+      "\\bclassList[\\s\\[\\(]+\"([^\"]*)\"",
+      "\\bclassList[\\s\\[\\(]+\"[^\"]*\",\\s[^\\)]+\\)[\\s\\[\\(,]+\"([^\"]*)\"",
+      "\\bclassList[\\s\\[\\(]+\"[^\"]*\",\\s[^\\)]+\\)[\\s\\[\\(,]+\"[^\"]*\",\\s[^\\)]+\\)[\\s\\[\\(,]+\"([^\"]*)\""
+    ]
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "yaml.customTags": [
+    "!encrypted/pkcs1-oaep scalar",
+    "!vault scalar",
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ]
+}
