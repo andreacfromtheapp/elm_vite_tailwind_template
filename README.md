@@ -28,6 +28,14 @@ There a number of funcionalities that would help with web dev best practices but
 - [elm-test](https://package.elm-lang.org/packages/elm-explorations/test/latest/): write unit and fuzz tests for Elm code.
 - [elm-review](https://package.elm-lang.org/packages/jfmengels/elm-review/latest/): analyze Elm projects, to help find mistakes before your users find them.
 
+#### Elm Pacakges Suggestions
+
+Hereby a shortlist of some Elm packages that could be beneficial but are not included for obvious reasons:
+
+- [tesk9/accessible-html](https://package.elm-lang.org/packages/tesk9/accessible-html/latest/): makes writing accessible websites easier. The Aria module is pretty useful.
+- [lattyware/elm-fontawesome](https://package.elm-lang.org/packages/lattyware/elm-fontawesome/latest/): great FA integration and support for Elm.
+- [dillonkearns/elm-review-html-to-elm](https://package.elm-lang.org/packages/dillonkearns/elm-review-html-to-elm/latest/): elm-review integration to peruse [html-to-elm](https://html-to-elm.com/) funcionality within your code.
+
 ### Node
 
 - [nvm](https://github.com/nvm-sh/nvm): easily and consistently manage Node. ```.nvimrc``` provided.
