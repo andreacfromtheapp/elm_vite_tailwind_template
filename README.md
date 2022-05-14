@@ -15,9 +15,9 @@ A very opinionated default template for building [Elm](https://elm-lang.org/) ap
 - [vite-plugin-favicon](https://github.com/josh-hemphill/vite-plugin-favicon): automatically generate your favicons.
 - [vite-plugin-compress](https://github.com/alloc/vite-plugin-compress): compress your bundle and assets.
 
-#### Would be nice to have/Left to the user
+#### Would be nice to have
 
-There a number of funcionalities that would help with web dev best practices but that are left out. Either because they are intended to use with more "*traditional js setups*" or don't easily/immediately relate/integrate with Elm's way of doing things. Hereby there's a list of *honorable mentions* if you will:
+There a number of funcionalities that would help, but that are left out because they don't easily integrate with Elm's way of doing things. Hereby there's a list of *honorable mentions* if you will:
 
 - [vite-imagetools](https://github.com/JonasKruckenberg/imagetools): load and transform images using url query parameters.
 
@@ -28,13 +28,12 @@ There a number of funcionalities that would help with web dev best practices but
 - [elm-test](https://package.elm-lang.org/packages/elm-explorations/test/latest/): write unit and fuzz tests for Elm code.
 - [elm-review](https://package.elm-lang.org/packages/jfmengels/elm-review/latest/): analyze Elm projects, to help find mistakes before your users find them.
 
-#### Elm Pacakges Suggestions
+#### Packages
 
-Hereby a shortlist of some Elm packages that could be beneficial but are not included for obvious reasons:
+Shortlist of Elm packages that could be beneficial. Included as suggestions, feel free to not use them. To remove them: 1) do not include in your code, and 2) run ```npx elm-review --fix-all```.
 
-- [tesk9/accessible-html](https://package.elm-lang.org/packages/tesk9/accessible-html/latest/): makes writing accessible websites easier. The Aria module is pretty useful.
+- [tesk9/accessible-html](https://package.elm-lang.org/packages/tesk9/accessible-html/latest/): makes writing accessible websites easier.
 - [lattyware/elm-fontawesome](https://package.elm-lang.org/packages/lattyware/elm-fontawesome/latest/): great FA integration and support for Elm.
-- [dillonkearns/elm-review-html-to-elm](https://package.elm-lang.org/packages/dillonkearns/elm-review-html-to-elm/latest/): elm-review integration to peruse [html-to-elm](https://html-to-elm.com/) funcionality within your code.
 
 ### Node
 

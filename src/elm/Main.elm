@@ -1,6 +1,8 @@
 module Main exposing (main)
 
+import Accessibility.Aria as Aria
 import Browser
+import FontAwesome.Styles as Icon
 import HelloWorld exposing (helloWorld)
 import Html exposing (Html, div, img)
 import Html.Attributes exposing (class, src)
@@ -30,7 +32,11 @@ update msg model =
 
 view : Int -> Html Msg
 view model =
-    div [ class "flex flex-col justify-center items-center h-screen" ]
-        [ img [ src elmLogo, class "w-80" ] []
+    div
+        [ Aria.label "main content"
+        , class "flex flex-col justify-center items-center h-screen"
+        ]
+        [ Icon.css
+        , img [ src elmLogo, class "w-80" ] []
         , helloWorld model
         ]

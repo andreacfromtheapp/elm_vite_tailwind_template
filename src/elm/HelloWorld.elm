@@ -1,5 +1,11 @@
 module HelloWorld exposing (helloWorld)
 
+import FontAwesome.Attributes as Icon
+import FontAwesome.Brands as Icon
+import FontAwesome.Icon as Icon exposing (Icon)
+import FontAwesome.Layering as Icon
+import FontAwesome.Solid as Icon
+import FontAwesome.Transforms as Icon
 import Html exposing (Html, a, button, div, h1, p, text)
 import Html.Attributes exposing (class, href)
 import Html.Events exposing (onClick)
@@ -11,9 +17,9 @@ helloWorld model =
     div [ class "py-2" ]
         [ h1 [ class "text-lg font-medium text-center" ] [ text "Hello, Vite + Tailwind + Elm!" ]
         , p []
-            [ a [ href "https://vitejs.dev/guide/features.html" ] [ text "Vite Documentation" ]
+            [ a [ href "https://vitejs.dev/guide/features.html" ] [ Icon.viewIcon Icon.book, text " Vite Documentation" ]
             , text " | "
-            , a [ href "https://guide.elm-lang.org/" ] [ text "Elm Documentation" ]
+            , a [ href "https://guide.elm-lang.org/" ] [ Icon.viewIcon Icon.book, text " Elm Documentation" ]
             ]
         , div [ class "text-center" ]
             [ button [ class "p-2", onClick Decrement ] [ text "-" ]
