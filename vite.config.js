@@ -2,7 +2,6 @@ import { defineConfig } from 'vite'
 import elmPlugin from 'vite-plugin-elm'
 import { ViteWebfontDownload } from 'vite-plugin-webfont-dl'
 import { ViteFaviconsPlugin } from 'vite-plugin-favicon'
-import { imagetools } from 'vite-imagetools'
 import compress from 'vite-plugin-compress'
 
 export default defineConfig({
