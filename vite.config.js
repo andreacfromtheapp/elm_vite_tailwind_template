@@ -8,6 +8,8 @@ export default defineConfig({
   plugins: [
     elmPlugin(),
     ViteWebfontDownload(),
+    // vite-plugin-favicon bugs:
+    // https://github.com/josh-hemphill/vite-plugin-favicon/issues/11
     ViteFaviconsPlugin({
       logo: './src/img/Elm_logo.svg',
       favicons: {
@@ -23,7 +25,9 @@ export default defineConfig({
         }
       }
     }),
-    imagetools(),
-    compress() // bug: https://github.com/alloc/vite-plugin-compress/issues/10
+    // vite-plugin-compress bugs:
+    // https://github.com/alloc/vite-plugin-compress/issues/10
+    // https://github.com/alloc/vite-plugin-compress/issues/15
+    compress()
   ]
 })
