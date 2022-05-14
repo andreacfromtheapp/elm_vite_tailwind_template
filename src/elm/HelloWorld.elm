@@ -1,11 +1,7 @@
 module HelloWorld exposing (helloWorld)
 
-import FontAwesome.Attributes as Icon
-import FontAwesome.Brands as Icon
-import FontAwesome.Icon as Icon exposing (Icon)
-import FontAwesome.Layering as Icon
+import FontAwesome.Icon as Icon
 import FontAwesome.Solid as Icon
-import FontAwesome.Transforms as Icon
 import Html exposing (Html, a, button, div, h1, p, text)
 import Html.Attributes exposing (class, href)
 import Html.Events exposing (onClick)
