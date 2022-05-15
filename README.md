@@ -30,10 +30,13 @@ There a number of funcionalities that would help, but that are left out because 
 
 #### Packages
 
-Shortlist of Elm packages that could be beneficial. Included as suggestions, feel free to not use them. To remove them: 1) do not include in your code, and 2) run ```npx elm-review --fix-all```.
+Shortlist of Elm packages that could be beneficial. Included as suggestions:
 
+- [hmsk/elm-vite-plugin-helper](https://package.elm-lang.org/packages/hmsk/elm-vite-plugin-helper/latest): provides helpers for using vite-plugin-elm.
 - [tesk9/accessible-html](https://package.elm-lang.org/packages/tesk9/accessible-html/latest/): makes writing accessible websites easier.
 - [lattyware/elm-fontawesome](https://package.elm-lang.org/packages/lattyware/elm-fontawesome/latest/): great FA integration and support for Elm.
+
+To remove them: 1) feel free to not use them, and 2) run ```npx elm-review --fix-all```.
 
 ### Node
 
