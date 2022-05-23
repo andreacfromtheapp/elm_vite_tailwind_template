@@ -44,8 +44,5 @@
       "dist",
       "tmp.js"
     ]
-  },
-  "dependencies": {
-    "sharp": "^0.30.4"
   }
 }
