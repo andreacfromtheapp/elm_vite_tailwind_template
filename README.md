@@ -14,12 +14,6 @@ A very opinionated default template for building [Elm](https://elm-lang.org/) ap
 - [vite-plugin-webfont-dl](https://github.com/feat-agency/vite-plugin-webfont-dl): inject Google Fonts to improve website's performance.
 - [vite-plugin-compress](https://github.com/alloc/vite-plugin-compress): compress your bundle and assets.
 
-#### Would be nice to have
-
-There a number of funcionalities that would help, but that are left out because they don't easily integrate with Elm's way of doing things. Hereby there's a list of *honorable mentions* if you will:
-
-- [vite-imagetools](https://github.com/JonasKruckenberg/imagetools): load and transform images using url query parameters.
-
 ### Elm
 
 - [elm-tooling](https://elm-tooling.github.io/elm-tooling-cli/): command line program that manages your Elm tools.
