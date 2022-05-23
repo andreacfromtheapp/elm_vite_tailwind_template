@@ -7,9 +7,11 @@ export default defineConfig({
   plugins: [
     elmPlugin(),
     ViteWebfontDownload(),
-    // vite-plugin-compress bugs:
+    // vite-plugin-compress has bugs:
     // https://github.com/alloc/vite-plugin-compress/issues/10
     // https://github.com/alloc/vite-plugin-compress/issues/15
-    compress()
+    compress({
+      exclude: ['**.svg']
+    })
   ]
 })
