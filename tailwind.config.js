@@ -9,5 +9,11 @@ module.exports = {
     extend: {},
     fontFamily: {}
   },
-  plugins: [require('@tailwindcss/typography')]
+  // https://tailwindcss.com/docs/plugins#official-plugins
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/line-clamp'),
+    require('@tailwindcss/aspect-ratio')
+  ]
 }

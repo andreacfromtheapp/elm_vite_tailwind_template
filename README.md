@@ -32,6 +32,15 @@ Shortlist of Elm packages that could be beneficial. Included as suggestions:
 
 To remove them: 1) feel free to not use them, and 2) run ```npx elm-review --fix-all```.
 
+### Tailwind CSS
+
+The [official plugins](https://tailwindcss.com/docs/plugins#official-plugins) are installed by default:
+
+- [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
+- [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
+- [@tailwindcss/line-clamp](https://github.com/tailwindlabs/tailwindcss-line-clamp)
+- [@tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
+
 ### Node
 
 - [nvm](https://github.com/nvm-sh/nvm): easily and consistently manage Node. ```.nvimrc``` provided.
