@@ -12,8 +12,8 @@ A very opinionated default template for building [Elm](https://elm-lang.org/) ap
 
 - [vite-plugin-elm](https://github.com/hmsk/vite-plugin-elm): compile an Elm module with hot-module reload.
 - [vite-plugin-webfont-dl](https://github.com/feat-agency/vite-plugin-webfont-dl): inject Google Fonts to improve website's performance.
-- [vite-plugin-compression](https://github.com/vbenjs/vite-plugin-compression): use gzip or brotli to compress resources.
-- [vite-plugin-imagemin](https://github.com/vbenjs/vite-plugin-imagemin): compress image assets.
+- [vite-plugin-compression](https://github.com/vbenjs/vite-plugin-compression): compress resources to improve website's performance.
+- [vite-plugin-imagemin](https://github.com/vbenjs/vite-plugin-imagemin): compress image assets to improve website's performance.
 
 ### Elm
 
