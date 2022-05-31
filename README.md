@@ -14,6 +14,7 @@ A very opinionated default template for building [Elm](https://elm-lang.org/) ap
 - [vite-plugin-webfont-dl](https://github.com/feat-agency/vite-plugin-webfont-dl): inject Google Fonts to improve website's performance.
 - [vite-plugin-compression](https://github.com/vbenjs/vite-plugin-compression): compress resources to improve website's performance.
 - [vite-plugin-imagemin](https://github.com/vbenjs/vite-plugin-imagemin): compress image assets to improve website's performance.
+- [vite-plugin-csp](https://github.com/josh-hemphill/vite-plugin-csp/): create typed CSP ```<meta>``` policies and validated interdependant headers.
 
 ### Elm
 

@@ -1,12 +1,14 @@
 import { defineConfig } from 'vite'
 import elmPlugin from 'vite-plugin-elm'
 import { ViteWebfontDownload } from 'vite-plugin-webfont-dl'
+import ViteCspPlugin from 'vite-plugin-csp'
 import viteImagemin from 'vite-plugin-imagemin'
 import viteCompression from 'vite-plugin-compression'
 
 export default defineConfig({
   plugins: [
     elmPlugin(),
+    ViteCspPlugin(),
     ViteWebfontDownload(),
     viteImagemin({
       gifsicle: {
@@ -33,6 +35,8 @@ export default defineConfig({
         nearLossless: 95
       }
     }),
-    viteCompression({ algorithm: 'brotliCompress' })
+    viteCompression({
+      algorithm: 'brotliCompress'
+    })
   ]
 })
