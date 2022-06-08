@@ -1,7 +1,7 @@
 {
   "name": "vite_elm_taiwind",
   "author": "Andrea Callea",
-  "description": "elm_vite_tailwind_template",
+  "description": "Elm, Vite, Tailwind template :)",
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
