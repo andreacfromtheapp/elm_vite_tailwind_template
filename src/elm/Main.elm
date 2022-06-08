@@ -34,7 +34,7 @@ view : Int -> Html Msg
 view model =
     div
         [ Aria.label "main content"
-        , class "flex flex-col justify-center items-center h-screen"
+        , class "flex flex-col justify-center items-center h-screen font-sans"
         ]
         [ Icon.css
         , img [ src elmLogo, class "w-80" ] []

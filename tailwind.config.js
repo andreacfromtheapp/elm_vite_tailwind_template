@@ -7,7 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    fontFamily: {}
+    fontFamily: {
+      sans: ['Lexend Deca', 'sans-serif']
+    }
   },
   // https://tailwindcss.com/docs/plugins#official-plugins
   plugins: [
