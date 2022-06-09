@@ -90,7 +90,7 @@ For consistent ```git``` management, the following extensions and their settings
 | preview     | vite preview                        |
 | standard    | standard --fix src/**/*.js          |
 | markdown    | standard-markdown --fix src/**/*.md |
-| review      | elm-review                          |
+| review      | elm-review --fix-all                |
 | test        | elm-test-rs                         |
 
 ## Acknowledgements
