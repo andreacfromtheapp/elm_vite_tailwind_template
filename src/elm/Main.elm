@@ -4,7 +4,7 @@ import Accessibility.Aria as Aria
 import Browser
 import FontAwesome.Styles as Icon
 import HelloWorld exposing (helloWorld)
-import Html exposing (Html, div)
+import Html exposing (Html, main_)
 import Html.Attributes exposing (class)
 import Msg exposing (Msg(..))
 
@@ -16,7 +16,7 @@ main =
 
 view : Int -> Html Msg
 view model =
-    div
+    main_
         [ Aria.label "main content"
         , class "flex flex-col justify-center items-center h-screen font-sans"
         ]
