@@ -1,5 +1,6 @@
 module HelloWorld exposing (helloWorld)
 
+import Accessibility.Aria as Aria
 import FontAwesome.Icon as Icon
 import FontAwesome.Solid as Icon
 import Html exposing (Html, a, button, div, h1, img, table, td, text, tr)
@@ -17,14 +18,14 @@ elmLogo =
 helloWorld : Int -> Html Msg
 helloWorld model =
     div [ class "text-xl" ]
-        [ h1 [ class "text-center text-4xl mb-4" ] [ text "Hello, Vite + Tailwind + Elm!" ]
-        , img [ src elmLogo, class "w-80 mx-auto" ] []
-        , div [ class "text-center mt-4" ]
-            [ button [ class "m-2 px-2 bg-slate-300 hover:bg-slate-400 border border-black", onClick Decrement ] [ text "-" ]
+        [ img [ Aria.label "Elm Logo", src elmLogo, class "w-80 mx-auto" ] []
+        , h1 [ Aria.label "Title", class "text-center text-4xl my-4" ] [ text "Hello, Vite + Tailwind + Elm!" ]
+        , div [ Aria.label "Counter", class "text-center mt-4" ]
+            [ button [ Aria.label "Decrease Counter", class "m-2 px-2 bg-slate-300 hover:bg-slate-400 border border-black", onClick Decrement ] [ text "-" ]
             , text <| "Count is: " ++ String.fromInt model
-            , button [ class "m-2 px-2 bg-slate-300 hover:bg-slate-400 border border-black", onClick Increment ] [ text "+" ]
+            , button [ Aria.label "Increase Counter", class "m-2 px-2 bg-slate-300 hover:bg-slate-400 border border-black", onClick Increment ] [ text "+" ]
             ]
-        , table [ class "table-auto mt-4 text-left mx-auto" ]
+        , table [ Aria.label "Documentation Links", class "table-auto mt-4 text-left mx-auto border-separate border-spacing-2" ]
             [ tr []
                 [ td [ class "border border-slate-300 p-2" ]
                     [ Icon.viewIcon Icon.book ]
