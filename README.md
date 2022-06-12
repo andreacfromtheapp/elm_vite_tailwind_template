@@ -3,15 +3,15 @@
 A very opinionated default template for building [Elm](https://elm-lang.org/) applications using [Tailwind CSS](https://tailwindcss.com/) and [Vite](https://vitejs.dev/).
 
 - To learn more about Elm, check out [Elm's official homepage](https://elm-lang.org/).
-- For more information about Vite, check out [Vite's official documentation.](https://vitejs.dev/)
-- For more information about Tailwind CSS, check out [Tailwind's official documentation](https://tailwindcss.com/docs/installation)
+- For more information about Vite, check out [Vite's official documentation](https://vitejs.dev/).
+- For more information about Tailwind CSS, check out [Tailwind's official documentation](https://tailwindcss.com/docs/installation).
 
 ## Tooling
 
 ### Vite
 
 - [vite-plugin-elm](https://github.com/hmsk/vite-plugin-elm): compile an Elm module with hot-module reload.
-- [vite-plugin-webfont-dl](https://github.com/feat-agency/vite-plugin-webfont-dl): inject Google Fonts to improve website's performance.
+- [vite-plugin-webfont-dl](https://github.com/feat-agency/vite-plugin-webfont-dl): inject [Google Fonts](https://fonts.google.com/) to improve website's performance.
 - [vite-plugin-compression](https://github.com/vbenjs/vite-plugin-compression): compress resources to improve website's performance.
 - [vite-plugin-imagemin](https://github.com/vbenjs/vite-plugin-imagemin): compress image assets to improve website's performance.
 - [vite-plugin-csp](https://github.com/josh-hemphill/vite-plugin-csp/): create typed CSP ```<meta>``` policies and validated interdependant headers.
@@ -20,8 +20,8 @@ A very opinionated default template for building [Elm](https://elm-lang.org/) ap
 
 - [elm-tooling](https://elm-tooling.github.io/elm-tooling-cli/): command line program that manages your Elm tools.
 - [elm-format](https://github.com/avh4/elm-format): format Elm source code according to the official [Elm Style Guide](https://elm-lang.org/docs/style-guide).
-- [elm-test](https://package.elm-lang.org/packages/elm-explorations/test/latest/): write unit and fuzz tests for Elm code.
-- [elm-review](https://package.elm-lang.org/packages/jfmengels/elm-review/latest/): analyze Elm projects, to help find mistakes before your users find them.
+- [elm-test](https://package.elm-lang.org/packages/elm-explorations/test/latest/): write [unit](https://en.wikipedia.org/wiki/Unit_testing) and [fuzz](https://en.wikipedia.org/wiki/Fuzzing) tests for Elm code.
+- [elm-review](https://package.elm-lang.org/packages/jfmengels/elm-review/latest/): analyze Elm projects and find mistakes before your users find them.
 
 #### Packages
 
@@ -29,7 +29,7 @@ Shortlist of Elm packages that could be beneficial. Included as suggestions:
 
 - [hmsk/elm-vite-plugin-helper](https://package.elm-lang.org/packages/hmsk/elm-vite-plugin-helper/latest): provides helpers for using vite-plugin-elm.
 - [tesk9/accessible-html](https://package.elm-lang.org/packages/tesk9/accessible-html/latest/): makes writing accessible websites easier.
-- [lattyware/elm-fontawesome](https://package.elm-lang.org/packages/lattyware/elm-fontawesome/latest/): great FA integration and support for Elm.
+- [lattyware/elm-fontawesome](https://package.elm-lang.org/packages/lattyware/elm-fontawesome/latest/): native [Font Awesome](https://fontawesome.com/) integration and support.
 
 To remove them: 1) feel free to not use them, and 2) run ```npx elm-review --fix-all```.
 
@@ -54,10 +54,10 @@ The [official plugins](https://tailwindcss.com/docs/plugins#official-plugins) ar
 #### Lint/Format
 
 - [Elm Format](https://github.com/avh4/elm-format)
-- [Standard JS](https://standardjs.com/)
+- [StandardJS](https://standardjs.com/)
 - [Stylelint](https://stylelint.io/)
 - [Prettier](https://prettier.io/)
-- [MarkdownLint](https://github.com/DavidAnson/markdownlint)
+- [Markdown Lint](https://github.com/DavidAnson/markdownlint)
 - [Red Hat YAML](https://github.com/redhat-developer/vscode-yaml)
 
 #### Elm + Tailwind CSS
@@ -74,7 +74,26 @@ For consistent ```git``` management, the following extensions and their settings
 
 ## Get Started
 
-1. Clone the template: ```npx degit gacallea/elm_vite_tailwind_template#main my-elm-app```
+### Install tiged
+
+To clone this repository, devoid of any ```.git``` infromation, you can either use ```npx degit``` or install ```tiged``` locally and run ```degit``` without the ```npx``` command in front of it.
+
+[Tiged is a fork that addresses a number of issues](https://github.com/tiged/tiged#why-fork=), and should be preferred. YMMV.
+
+To install it, run:
+
+```bash
+npm uninstall -g degit
+npm install -g tiged
+```
+
+Most likely, ```npx degit``` would invoke ```degit```. A locally installed binary makes sure you are running ```tiged``` instead.
+
+### Peruse the template
+
+1. Clone the template:
+   1. using npx: ```npx degit gacallea/elm_vite_tailwind_template my-elm-app```
+   2. local binary: ```degit gacallea/elm_vite_tailwind_template my-elm-app```
 2. Enter the project: ```cd my-elm-app```
 3. Install dependencies: ```npm install```
 4. Start developing: ```npm run dev```
