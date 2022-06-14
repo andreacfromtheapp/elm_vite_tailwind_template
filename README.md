@@ -42,6 +42,12 @@ The [official plugins](https://tailwindcss.com/docs/plugins#official-plugins) ar
 - [@tailwindcss/line-clamp](https://github.com/tailwindlabs/tailwindcss-line-clamp)
 - [@tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
 
+#### Daisy UI
+
+*The most popular, free and open-source Tailwind CSS component library*.
+
+[DaisyUI](https://daisyui.com/) is included as an experiment. Because it uses Tailwind CSS only, it integrates well with Elm. Example included: the "*Count is:*" counter buttons on the "demo" page, are daisyUI buttons.
+
 ### Node
 
 - [nvm](https://github.com/nvm-sh/nvm): easily and consistently manage Node. ```.nvimrc``` provided.

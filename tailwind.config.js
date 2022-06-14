@@ -16,6 +16,12 @@ module.exports = {
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/line-clamp'),
-    require('@tailwindcss/aspect-ratio')
-  ]
+    require('@tailwindcss/aspect-ratio'),
+    // https://daisyui.com/docs/install/
+    require('daisyui')
+  ],
+  // daisyUI config (optional)
+  daisyui: {
+    themes: ['light', 'dark']
+  }
 }

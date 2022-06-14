@@ -49,5 +49,8 @@
       "dist",
       "tmp.js"
     ]
+  },
+  "dependencies": {
+    "daisyui": "^2.15.3"
   }
 }
