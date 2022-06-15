@@ -125,7 +125,7 @@ helloWorld model =
                 , h1
                     [ Attr.class "mb-2 text-5xl font-bold"
                     ]
-                    [ text "Hello :) Vite + Tailwind + Elm!" ]
+                    [ text "Hello, Vite + Tailwind + Elm!" ]
                 , themes
                 , docs
                 , counter model
