@@ -18,7 +18,7 @@ view : Int -> Html Msg
 view model =
     main_
         [ Aria.label "main content"
-        , Attr.class "flex flex-col justify-center items-center h-screen font-sans bg-info bg-opacity-50"
+        , Attr.class "flex flex-col justify-center items-center w-full h-full font-sans bg-info bg-opacity-50"
         ]
         [ Icon.css
         , helloWorld model
