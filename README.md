@@ -46,7 +46,10 @@ The [official plugins](https://tailwindcss.com/docs/plugins#official-plugins) ar
 
 *The most popular, free and open-source Tailwind CSS component library*.
 
-[DaisyUI](https://daisyui.com/) is included as an experiment. Because it uses Tailwind CSS only, it integrates well with Elm. Example included: the "*Count is:*" counter buttons on the "demo" page, are daisyUI buttons.
+[DaisyUI](https://daisyui.com/) is included as an experiment. Because it uses Tailwind CSS only, it integrates well with Elm. Examples included:
+
+- the counter buttons are daisyUI buttons
+- basic daisyUI 'light' and 'dark' theming/coloring (via Elm ports)
 
 ### Node
 
