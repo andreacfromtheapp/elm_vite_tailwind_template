@@ -159,25 +159,34 @@ themes =
 
 docs : Html Msg
 docs =
+    let
+        borders : String
+        borders =
+            "border border-slate-300 p-1"
+
+        hovering : String
+        hovering =
+            "hover:bg-neutral-content hover:text-neutral"
+    in
     table
         [ Aria.label "Documentation Links"
-        , Attr.class "table-auto text-left mt-4 mx-auto border-separate border-spacing-2"
+        , Attr.class "table-auto mt-4 mx-auto border-separate border-spacing-2"
         ]
         [ tr []
-            [ td [ Attr.class "border border-slate-300 p-2" ]
+            [ td [ Attr.class borders ]
                 [ Icon.viewIcon Icon.book ]
-            , td [ Attr.class "border border-slate-300 p-2 hover:bg-neutral-content hover:text-neutral" ]
-                [ a [ Attr.class "", Attr.href "https://guide.elm-lang.org/" ] [ text "Elm Documentation" ] ]
-            , td [ Attr.class "border border-slate-300 p-2 hover:bg-neutral-content hover:text-neutral" ]
-                [ a [ Attr.class "", Attr.href "https://tailwindcss.com/docs/installation" ] [ text "Tailwind Documentation" ] ]
+            , td [ Attr.class <| borders ++ " " ++ hovering ]
+                [ a [ Attr.href "https://guide.elm-lang.org/" ] [ text "Elm Documentation" ] ]
+            , td [ Attr.class <| borders ++ " " ++ hovering ]
+                [ a [ Attr.href "https://tailwindcss.com/docs/installation" ] [ text "Tailwind Documentation" ] ]
             ]
         , tr []
-            [ td [ Attr.class "border border-slate-300 p-2" ]
+            [ td [ Attr.class borders ]
                 [ Icon.viewIcon Icon.book ]
-            , td [ Attr.class "border border-slate-300 p-2 hover:bg-neutral-content hover:text-neutral" ]
-                [ a [ Attr.class "", Attr.href "https://vitejs.dev/guide/features.html" ] [ text "Vite Documentation" ] ]
-            , td [ Attr.class "border border-slate-300 p-2 hover:bg-neutral-content hover:text-neutral" ]
-                [ a [ Attr.class "", Attr.href "https://daisyui.com/docs/use/" ] [ text "DaisyUI Documentation" ] ]
+            , td [ Attr.class <| borders ++ " " ++ hovering ]
+                [ a [ Attr.href "https://vitejs.dev/guide/features.html" ] [ text "Vite Documentation" ] ]
+            , td [ Attr.class <| borders ++ " " ++ hovering ]
+                [ a [ Attr.href "https://daisyui.com/docs/use/" ] [ text "DaisyUI Documentation" ] ]
             ]
         ]
 
