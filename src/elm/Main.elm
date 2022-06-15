@@ -1,11 +1,30 @@
-port module Main exposing (Model, Msg(..), helloWorld, initialModel, main)
+port module Main exposing
+    ( Model
+    , Msg(..)
+    , helloWorld
+    , initialModel
+    , main
+    )
 
 import Accessibility.Aria as Aria
 import Browser
 import FontAwesome.Icon as Icon
 import FontAwesome.Solid as Icon
 import FontAwesome.Styles as Icon
-import Html exposing (Html, a, button, div, h1, img, main_, table, td, text, tr)
+import Html
+    exposing
+        ( Html
+        , a
+        , button
+        , div
+        , h1
+        , img
+        , main_
+        , table
+        , td
+        , text
+        , tr
+        )
 import Html.Attributes as Attr
 import Html.Events exposing (onClick)
 import VitePluginHelper
@@ -106,7 +125,7 @@ helloWorld model =
                 , h1
                     [ Attr.class "mb-2 text-5xl font-bold"
                     ]
-                    [ text "Hello, Vite + Tailwind + Elm!" ]
+                    [ text "Hello :) Vite + Tailwind + Elm!" ]
                 , themes
                 , docs
                 , counter model
@@ -193,13 +212,19 @@ update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
         ChangeTheme string ->
-            ( model, changeTheme string )
+            ( model
+            , changeTheme string
+            )
 
         Increment ->
-            ( { model | count = model.count + 1 }, Cmd.none )
+            ( { model | count = model.count + 1 }
+            , Cmd.none
+            )
 
         Decrement ->
-            ( { model | count = model.count - 1 }, Cmd.none )
+            ( { model | count = model.count - 1 }
+            , Cmd.none
+            )
 
 
 
