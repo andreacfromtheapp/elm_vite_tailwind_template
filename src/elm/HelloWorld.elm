@@ -21,7 +21,7 @@ helloWorld model =
         [ Attr.class "hero min-h-screen bg-[url('../img/Elm_logo_blue.svg')]"
         ]
         [ div
-            [ Attr.class "hero-overlay bg-opacity-60"
+            [ Attr.class "hero-overlay"
             ]
             []
         , div
