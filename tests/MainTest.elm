@@ -1,6 +1,7 @@
 module MainTest exposing (suite)
 
-import Main exposing (Msg(..), helloWorld, initialModel)
+import Html.Attributes as Attr
+import Main exposing (Msg(..), docs, helloWorld, initialModel)
 import Test exposing (Test)
 import Test.Html.Event as Event
 import Test.Html.Query as Query
@@ -42,4 +43,24 @@ suite =
                     |> Query.find [ Html.tag "button", Html.containing [ Html.text "-" ] ]
                     |> Event.simulate Event.click
                     |> Event.expect Decrement
+        , Test.test "Elm documentation link present" <|
+            \_ ->
+                docs
+                    |> Query.fromHtml
+                    |> Query.has [ Html.tag "a", Html.attribute (Attr.href "https://guide.elm-lang.org/") ]
+        , Test.test "Vite documentation link present" <|
+            \_ ->
+                docs
+                    |> Query.fromHtml
+                    |> Query.has [ Html.tag "a", Html.attribute (Attr.href "https://vitejs.dev/guide/features.html") ]
+        , Test.test "Tailwind CSS documentation link present" <|
+            \_ ->
+                docs
+                    |> Query.fromHtml
+                    |> Query.has [ Html.tag "a", Html.attribute (Attr.href "https://tailwindcss.com/docs/installation") ]
+        , Test.test "Daisy UI documentation link present" <|
+            \_ ->
+                docs
+                    |> Query.fromHtml
+                    |> Query.has [ Html.tag "a", Html.attribute (Attr.href "https://daisyui.com/docs/use/") ]
         ]

@@ -1,6 +1,7 @@
 port module Main exposing
     ( Model
     , Msg(..)
+    , docs
     , helloWorld
     , initialModel
     , main
