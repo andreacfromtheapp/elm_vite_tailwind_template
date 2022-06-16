@@ -1,12 +1,4 @@
-port module Main exposing
-    ( Model
-    , Msg(..)
-    , docs
-    , githubLink
-    , helloWorld
-    , initialModel
-    , main
-    )
+port module Main exposing (Model, Msg(..), helloWorld, initialModel, main)
 
 import Accessibility.Aria as Aria
 import Browser
