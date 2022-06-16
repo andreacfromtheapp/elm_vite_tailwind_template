@@ -177,17 +177,45 @@ docs =
             [ td [ Attr.class borders ]
                 [ Icon.viewIcon Icon.book ]
             , td [ Attr.class <| borders ++ " " ++ hovering ]
-                [ a [ Attr.href "https://guide.elm-lang.org/" ] [ text "Elm Documentation" ] ]
+                [ a
+                    [ Attr.href "https://guide.elm-lang.org/"
+                    , Attr.target "_blank"
+                    , Attr.rel "noreferrer noopener"
+                    ]
+                    [ text "Elm Documentation" ]
+                ]
             , td [ Attr.class <| borders ++ " " ++ hovering ]
-                [ a [ Attr.href "https://tailwindcss.com/docs/installation" ] [ text "Tailwind Documentation" ] ]
+                [ a
+                    [ Attr.href "https://tailwindcss.com/docs/installation"
+                    , Attr.target "_blank"
+                    , Attr.rel "noreferrer noopener"
+                    ]
+                    [ text "Tailwind Documentation" ]
+                ]
             ]
         , tr []
             [ td [ Attr.class borders ]
                 [ Icon.viewIcon Icon.book ]
             , td [ Attr.class <| borders ++ " " ++ hovering ]
-                [ a [ Attr.href "https://vitejs.dev/guide/features.html" ] [ text "Vite Documentation" ] ]
+                [ a
+                    [ Attr.href "https://vitejs.dev/guide/features.html"
+                    , Attr.target "_blank"
+                    , Attr.rel "noreferrer noopener"
+                    ]
+                    [ text "Vite Documentation" ]
+                ]
             , td [ Attr.class <| borders ++ " " ++ hovering ]
-                [ a [ Attr.href "https://daisyui.com/docs/use/" ] [ text "DaisyUI Documentation" ] ]
+                [ a
+                    [ Attr.href "https://daisyui.com/docs/use/"
+                    , Attr.target "_blank"
+                    , Attr.rel "noreferrer noopener"
+                    ]
+                    [ text "DaisyUI Documentation" ]
+                ]
+            ]
+        ]
+
+
             ]
         ]
 
