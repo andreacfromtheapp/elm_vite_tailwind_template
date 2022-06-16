@@ -1,7 +1,14 @@
 module MainTest exposing (suite)
 
 import Html.Attributes as Attr
-import Main exposing (Msg(..), docs, helloWorld, initialModel)
+import Main
+    exposing
+        ( Msg(..)
+        , docs
+        , githubLink
+        , helloWorld
+        , initialModel
+        )
 import Test exposing (Test)
 import Test.Html.Event as Event
 import Test.Html.Query as Query
@@ -63,4 +70,9 @@ suite =
                 docs
                     |> Query.fromHtml
                     |> Query.has [ Html.tag "a", Html.attribute (Attr.href "https://daisyui.com/docs/use/") ]
+        , Test.test "Project GitHub link present" <|
+            \_ ->
+                githubLink
+                    |> Query.fromHtml
+                    |> Query.has [ Html.tag "a", Html.attribute (Attr.href "https://github.com/gacallea/elm_vite_tailwind_template") ]
         ]

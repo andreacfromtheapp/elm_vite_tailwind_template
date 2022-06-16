@@ -2,6 +2,7 @@ port module Main exposing
     ( Model
     , Msg(..)
     , docs
+    , githubLink
     , helloWorld
     , initialModel
     , main
@@ -9,6 +10,7 @@ port module Main exposing
 
 import Accessibility.Aria as Aria
 import Browser
+import FontAwesome.Brands as Icon
 import FontAwesome.Icon as Icon
 import FontAwesome.Solid as Icon
 import FontAwesome.Styles as Icon
@@ -130,6 +132,7 @@ helloWorld model =
                 , themes
                 , docs
                 , counter model
+                , githubLink
                 ]
             ]
         ]
@@ -216,7 +219,15 @@ docs =
         ]
 
 
+githubLink : Html Msg
+githubLink =
+    div [ Attr.class "text-2xl" ]
+        [ a
+            [ Attr.href "https://github.com/gacallea/elm_vite_tailwind_template"
+            , Attr.target "_blank"
+            , Attr.rel "noreferrer noopener"
             ]
+            [ Icon.viewIcon Icon.github ]
         ]
 
 
