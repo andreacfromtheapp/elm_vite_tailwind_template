@@ -1,20 +1,21 @@
 # Vite, Elm, and Tailwind CSS, Template
 
-A very opinionated default template for building [Elm](https://elm-lang.org/) applications using [Tailwind CSS](https://tailwindcss.com/) and [Vite](https://vitejs.dev/).
+Opinionated template for building [Elm](https://elm-lang.org/) applications using [Vite JS](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and [Daisy UI](https://daisyui.com/).
 
 - To learn more about Elm, check out [Elm's official homepage](https://elm-lang.org/).
-- For more information about Vite, check out [Vite's official documentation](https://vitejs.dev/).
-- For more information about Tailwind CSS, check out [Tailwind's official documentation](https://tailwindcss.com/docs/installation).
+- For more information about Vite JS, check out [Vite JS's official documentation](https://vitejs.dev/).
+- For more information about Tailwind CSS, check out [Tailwind CSS's official documentation](https://tailwindcss.com/docs/installation).
+- For more information about Daisy UI, check out [Daisy UI's official documentation](https://daisyui.com/docs/use/).
 
 ## Tooling
 
-### Vite
+### Vite JS
 
 - [vite-plugin-elm](https://github.com/hmsk/vite-plugin-elm): compile an Elm module with hot-module reload.
 - [vite-plugin-webfont-dl](https://github.com/feat-agency/vite-plugin-webfont-dl): inject [Google Fonts](https://fonts.google.com/) to improve website's performance.
 - [vite-plugin-compression](https://github.com/vbenjs/vite-plugin-compression): compress resources to improve website's performance.
 - [vite-plugin-imagemin](https://github.com/vbenjs/vite-plugin-imagemin): compress image assets to improve website's performance.
-- [vite-plugin-csp](https://github.com/josh-hemphill/vite-plugin-csp/): create typed CSP ```<meta>``` policies and validated interdependant headers.
+- [vite-plugin-csp](https://github.com/josh-hemphill/vite-plugin-csp/): create typed [CSP ```<meta>``` policies](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) and validated interdependant headers.
 
 ### Elm
 
@@ -31,7 +32,7 @@ Shortlist of Elm packages that could be beneficial. Included as suggestions:
 - [tesk9/accessible-html](https://package.elm-lang.org/packages/tesk9/accessible-html/latest/): makes writing accessible websites easier.
 - [lattyware/elm-fontawesome](https://package.elm-lang.org/packages/lattyware/elm-fontawesome/latest/): native [Font Awesome](https://fontawesome.com/) integration and support.
 
-To remove them: 1) feel free to not use them, and 2) run ```npx elm-review --fix-all```.
+To remove them: 1) feel free to not use them, and 2) run ```npm run review```.
 
 ### Tailwind CSS
 
@@ -44,12 +45,13 @@ The [official plugins](https://tailwindcss.com/docs/plugins#official-plugins) ar
 
 #### Daisy UI
 
-*The most popular, free and open-source Tailwind CSS component library*.
+*"The most popular, free and open-source Tailwind CSS component library"*.
 
-[DaisyUI](https://daisyui.com/) is included as an experiment. Because it uses Tailwind CSS only, it integrates well with Elm. Examples included:
+[Daisy UI](https://daisyui.com/) is a pure Tailwind CSS classes component library, aiming to work on all frameworks. This makes Elm integration possible and very easy to to use. Examples included:
 
-- the counter buttons are daisyUI buttons
-- basic daisyUI 'light' and 'dark' theming/coloring (via Elm ports)
+- the whole page is a Daisy UI [hero](https://daisyui.com/components/hero/) section
+- the counter buttons are Daisy UI [buttons](https://daisyui.com/components/button/)
+- basic Daisy UI 'light' and 'dark' [theming](https://daisyui.com/docs/themes/)/[coloring](https://daisyui.com/docs/colors/) (via Elm ports)
 
 ### Node
 
