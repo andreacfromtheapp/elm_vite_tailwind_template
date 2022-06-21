@@ -11,7 +11,7 @@
       "elm/html": "1.0.0",
       "hmsk/elm-vite-plugin-helper": "1.0.1",
       "lattyware/elm-fontawesome": "5.0.0",
-      "tesk9/accessible-html": "5.0.0"
+      "tesk9/accessible-html": "5.1.0"
     },
     "indirect": {
       "elm/json": "1.1.3",
