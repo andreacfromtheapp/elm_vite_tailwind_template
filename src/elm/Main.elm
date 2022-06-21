@@ -2,8 +2,8 @@ port module Main exposing (Model, Msg(..), helloWorld, initialModel, main)
 
 import Accessibility.Aria as Aria
 import Browser
+import FontAwesome as Icon
 import FontAwesome.Brands as Icon
-import FontAwesome.Icon as Icon
 import FontAwesome.Solid as Icon
 import FontAwesome.Styles as Icon
 import Html
@@ -141,14 +141,14 @@ themes =
             , Aria.label "light theme"
             , onClick (ChangeTheme "light")
             ]
-            [ Icon.viewIcon Icon.sun
+            [ Icon.view Icon.sun
             ]
         , button
             [ Attr.class "btn btn-ghost btn-circle text-3xl"
             , Aria.label "dark theme"
             , onClick (ChangeTheme "dark")
             ]
-            [ Icon.viewIcon Icon.moon
+            [ Icon.view Icon.moon
             ]
         ]
 
@@ -170,7 +170,7 @@ docs =
         ]
         [ tr []
             [ td [ Attr.class borders ]
-                [ Icon.viewIcon Icon.book ]
+                [ Icon.view Icon.book ]
             , td [ Attr.class <| borders ++ " " ++ hovering ]
                 [ a
                     [ Attr.href "https://guide.elm-lang.org/"
@@ -190,7 +190,7 @@ docs =
             ]
         , tr []
             [ td [ Attr.class borders ]
-                [ Icon.viewIcon Icon.book ]
+                [ Icon.view Icon.book ]
             , td [ Attr.class <| borders ++ " " ++ hovering ]
                 [ a
                     [ Attr.href "https://vitejs.dev/guide/features.html"
@@ -219,7 +219,7 @@ githubLink =
             , Attr.target "_blank"
             , Attr.rel "noreferrer noopener"
             ]
-            [ Icon.viewIcon Icon.github ]
+            [ Icon.view Icon.github ]
         ]
 
 
