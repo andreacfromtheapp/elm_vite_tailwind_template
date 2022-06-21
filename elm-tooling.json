@@ -1,5 +1,7 @@
 {
-  "entrypoints": ["./src/elm/Main.elm"],
+  "entrypoints": [
+    "./src/elm/Main.elm"
+  ],
   "tools": {
     "elm": "0.19.1",
     "elm-format": "0.8.5",
