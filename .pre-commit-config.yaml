@@ -1,0 +1,37 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.3.0
+    hooks:
+      - id: detect-private-key
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-yaml
+      - id: check-toml
+      - id: check-json
+      - id: pretty-format-json
+        args: [--autofix, --no-sort-keys]
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+
+  - repo: https://github.com/standard/standard
+    rev: v17.0.0
+    files: "./src/**/*.(js|jsx|ts|tsx|mjs|cjs)"
+    hooks:
+      - id: standard
+        args: [--fix]
+
+  - repo: https://github.com/thibaudcolas/pre-commit-stylelint
+    rev: v14.9.1
+    files: "./src/**/*.(css|scss|sass)"
+    hooks:
+      - id: stylelint
+        args: [--fix]
+        additional_dependencies:
+          - stylelint@14.9.1
+          - stylelint-config-html@1.0.0
+          - stylelint-config-prettier@9.0.3
+          - stylelint-config-prettier-scss@0.0.1
+          - stylelint-config-standard@26.0.0
+          - stylelint-config-standard-scss@4.0.0
