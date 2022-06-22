@@ -124,6 +124,14 @@ Most likely, ```npx degit``` would invoke ```degit```. A locally installed binar
 | review      | elm-review --fix-all                         |
 | test        | elm-test-rs                                  |
 
+## Contributing
+
+Contributions and constructive ciriticism are welcome. If you think I'm overdoing it, feel free to discuss. I'm still experimenting with this, as a learning opportunity, and I strive to improve the template as much as possible.
+
+### pre-commit hooks
+
+This repo relies on [pre-commit-ci](https://pre-commit.ci) to make sure all suggested coding standards are enforced with [git hooks](https://githooks.com/). You could also install [pre-commit](https://pre-commit.com/#install) locally to apply the same [configuration](./.pre-commit-config.yaml) locally.
+
 ## Acknowledgements
 
 This templated was inspired by [Lindsay K Wardell](https://github.com/lindsaykwardell/vite-elm-template)'s template.
