@@ -24,9 +24,7 @@
   "gitlab.showMrStatusOnStatusBar": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "html-css-class-completion.enableEmmetSupport": true,
-  "javascript.format.enable": false,
   "javascript.validate.enable": false,
-  "typescript.format.enable": false,
   "typescript.validate.enable": false,
   "standard.enable": true,
   "standard.engine": "standard",
@@ -79,18 +77,6 @@
   },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "numso.prettier-standard-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "numso.prettier-standard-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "numso.prettier-standard-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "numso.prettier-standard-vscode"
   },
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
