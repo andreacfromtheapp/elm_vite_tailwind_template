@@ -98,9 +98,6 @@
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
-  "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  },
   "yaml.customTags": [
     "!encrypted/pkcs1-oaep scalar",
     "!vault scalar",
