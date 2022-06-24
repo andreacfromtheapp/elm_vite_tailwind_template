@@ -1,4 +1,4 @@
-# Vite, Elm, and Tailwind CSS, Template
+# Vite, Elm, Tailwind CSS, and Daisy UI
 
 Opinionated template for building [Elm](https://elm-lang.org/) applications using [Vite JS](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and [Daisy UI](https://daisyui.com/).
 
@@ -47,7 +47,7 @@ The [official plugins](https://tailwindcss.com/docs/plugins#official-plugins) ar
 
 *"The most popular, free and open-source Tailwind CSS component library"*.
 
-[Daisy UI](https://daisyui.com/) is a pure Tailwind CSS classes component library, aiming to work on all frameworks. This makes Elm integration possible and very easy to to use. Examples included:
+[Daisy UI](https://daisyui.com/): a Tailwind CSS classes component library, aiming to work on all frameworks. The CSS nature of Daisy UI makes Elm integration possible and a breeze to use. Examples included:
 
 - the whole page is a Daisy UI [hero](https://daisyui.com/components/hero/) section
 - the counter buttons are Daisy UI [buttons](https://daisyui.com/components/button/)
@@ -55,7 +55,7 @@ The [official plugins](https://tailwindcss.com/docs/plugins#official-plugins) ar
 
 ### Node
 
-- [nvm](https://github.com/nvm-sh/nvm): easily and consistently manage Node. ```.nvimrc``` provided.
+- [nvm](https://github.com/nvm-sh/nvm): easily and consistently manage Node. (```.nvimrc``` provided).
 
 ### VS Code
 
@@ -69,7 +69,7 @@ The [official plugins](https://tailwindcss.com/docs/plugins#official-plugins) ar
 - [Stylelint](https://stylelint.io/)
 - [Prettier](https://prettier.io/)
 - [Markdown Lint](https://github.com/DavidAnson/markdownlint)
-- [Red Hat YAML](https://github.com/redhat-developer/vscode-yaml)
+- [Red Hat YAML](https://github.com/redhat-developer/vscode-yaml) (LSP)
 
 #### Elm + Tailwind CSS
 
@@ -87,11 +87,9 @@ For consistent ```git``` management, the following extensions and their settings
 
 ### Install tiged
 
-To clone this repository, devoid of any ```.git``` infromation, you can either use ```npx degit``` or install ```tiged``` locally and run ```degit``` without the ```npx``` command in front of it.
+To clone this repository, devoid of ```.git```, you can either use ```npx degit``` or install ```tiged``` locally and run ```degit``` without ```npx```. YMMV.
 
-[Tiged is a fork that addresses a number of issues](https://github.com/tiged/tiged#why-fork=), and should be preferred. YMMV.
-
-To install it, run:
+[Tiged is a fork that addresses a number of issues](https://github.com/tiged/tiged#why-fork=), and should be preferred. To install it, run:
 
 ```bash
 npm uninstall -g degit
@@ -126,9 +124,9 @@ Most likely, ```npx degit``` would invoke ```degit```. A locally installed binar
 
 ## Contributing
 
-Contributions and constructive ciriticism are welcome. If you think I'm overdoing it, feel free to discuss. I'm still experimenting with this, as a learning opportunity, and I strive to improve the template as much as possible.
+Contributions and constructive criticism are welcome. If you think I'm overdoing it, feel free to discuss. I'm still experimenting with this, as a learning opportunity, and I strive to improve the template as much as possible.
 
-### pre-commit hooks
+### pre-commit hooks (WIP)
 
 This repo relies on [pre-commit-ci](https://pre-commit.ci) to make sure all suggested coding standards are enforced with [git hooks](https://githooks.com/). You could also install [pre-commit](https://pre-commit.com/#install) locally to apply the same [configuration](./.pre-commit-config.yaml) locally.
 
