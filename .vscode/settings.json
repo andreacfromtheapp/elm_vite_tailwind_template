@@ -9,6 +9,7 @@
   "editor.quickSuggestionsDelay": 0,
   "editor.inlineSuggest.enabled": true,
   "editor.suggestSelection": "first",
+  "prettier.useEditorConfig": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
