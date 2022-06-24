@@ -11,7 +11,7 @@ repos:
       - id: check-toml
       - id: check-json
         # - id: pretty-format-json
-        args: [--autofix, --no-sort-keys]
+        # args: [--autofix, --no-sort-keys]
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
 
