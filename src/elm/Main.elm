@@ -153,7 +153,7 @@ themes =
         ]
 
 
-docs : Html Msg
+docs : Html msg
 docs =
     let
         borders : String
@@ -211,7 +211,7 @@ docs =
         ]
 
 
-githubLink : Html Msg
+githubLink : Html msg
 githubLink =
     div [ Attr.class "text-2xl" ]
         [ a
