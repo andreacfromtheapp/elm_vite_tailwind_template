@@ -1,36 +1,35 @@
 {
-  "name": "vite_elm_taiwind",
+  "name": "vite_elm_tailwind",
   "author": "Andrea Callea",
   "description": "Elm, Vite, Tailwind template :)",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.0",
-    "@tailwindcss/forms": "^0.5.2",
-    "@tailwindcss/line-clamp": "^0.4.0",
-    "@tailwindcss/typography": "^0.5.2",
-    "autoprefixer": "^10.4.7",
-    "elm-review": "^2.7.2",
-    "elm-test": "^0.19.1-revision8",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.7",
+    "autoprefixer": "^10.4.9",
+    "elm-review": "^2.7.5",
     "elm-tooling": "^1.8.0",
-    "postcss": "^8.4.14",
-    "postcss-html": "^1.4.1",
+    "postcss": "^8.4.16",
+    "postcss-html": "^1.5.0",
     "prettier": "^2.7.1",
     "standard": "^17.0.0",
     "standard-markdown": "^7.1.0",
-    "stylelint": "^14.9.1",
-    "stylelint-config-html": "^1.0.0",
+    "stylelint": "^14.11.0",
+    "stylelint-config-html": "^1.1.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-prettier-scss": "^0.0.1",
-    "stylelint-config-standard": "^26.0.0",
-    "stylelint-config-standard-scss": "^4.0.0",
-    "tailwindcss": "^3.1.4",
-    "vite": "^2.9.12",
+    "stylelint-config-standard": "^28.0.0",
+    "stylelint-config-standard-scss": "^5.0.0",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.0",
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-csp": "^1.1.2",
-    "vite-plugin-elm": "^2.6.1",
+    "vite-plugin-elm": "^2.7.2",
     "vite-plugin-imagemin": "^0.6.1",
-    "vite-plugin-webfont-dl": "^2.1.0"
+    "vite-plugin-webfont-dl": "^3.1.1"
   },
   "scripts": {
     "postinstall": "elm-tooling install",
@@ -52,6 +51,6 @@
     ]
   },
   "dependencies": {
-    "daisyui": "^2.17.0"
+    "daisyui": "^2.27.0"
   }
 }
