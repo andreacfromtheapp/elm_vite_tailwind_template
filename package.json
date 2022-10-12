@@ -1,7 +1,7 @@
 {
   "name": "vite_elm_tailwind",
   "author": "Andrea Callea",
-  "description": "Elm, Vite, Tailwind template :)",
+  "description": "Elm, Vite, Tailwind CSS + daisyUI, template :)",
   "version": "2.0.0",
   "private": true,
   "devDependencies": {
@@ -11,6 +11,7 @@
     "@tailwindcss/typography": "^0.5.7",
     "autoprefixer": "^10.4.12",
     "elm-review": "^2.7.5",
+    "elm-test": "^0.19.1-revision10",
     "elm-tooling": "^1.9.0",
     "postcss": "^8.4.17",
     "postcss-html": "^1.5.0",
