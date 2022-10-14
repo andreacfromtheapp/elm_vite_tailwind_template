@@ -70,6 +70,7 @@ The [official plugins](https://tailwindcss.com/docs/plugins#official-plugins) ar
 - [Prettier](https://prettier.io/)
 - [Markdown Lint](https://github.com/DavidAnson/markdownlint)
 - [Red Hat YAML](https://github.com/redhat-developer/vscode-yaml) (LSP)
+- [Even Better TOML](https://taplo.tamasfe.dev/)
 
 #### Elm + Tailwind CSS
 

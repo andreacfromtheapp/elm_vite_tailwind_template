@@ -7,6 +7,7 @@
     "yzhang.markdown-all-in-one",
     "davidanson.vscode-markdownlint",
     "redhat.vscode-yaml",
+    "tamasfe.even-better-toml",
     "bradlc.vscode-tailwindcss",
     "ecmel.vscode-html-css",
     "zignd.html-css-class-completion",
