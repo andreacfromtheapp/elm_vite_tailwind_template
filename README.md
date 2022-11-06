@@ -116,7 +116,7 @@ Most likely, ```npx degit``` would invoke ```degit```. A locally installed binar
 | dev         | vite                                         |
 | prebuild    | elm-tooling install                          |
 | build       | vite build                                   |
-| preview     | vite preview                                 |
+| preview     | npm run build; vite preview                  |
 | standard    | standard --fix src/**/*.js                   |
 | markdown    | standard-markdown --fix src/**/*.md          |
 | stylelint   | stylelint --fix "src/**/*.(css\|scss\|sass)" |
