@@ -1,11 +1,11 @@
-# Vite, Elm, Tailwind CSS, and Daisy UI
+# Vite, Elm, Tailwind CSS, and daisyUI
 
-Opinionated template for building [Elm](https://elm-lang.org/) applications using [Vite JS](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and [Daisy UI](https://daisyui.com/).
+Opinionated template for building [Elm](https://elm-lang.org/) applications using [Vite JS](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and [daisyUI](https://daisyui.com/).
 
 - To learn more about Elm, check out [Elm's official homepage](https://elm-lang.org/).
 - For more information about Vite JS, check out [Vite JS's official documentation](https://vitejs.dev/).
 - For more information about Tailwind CSS, check out [Tailwind CSS's official documentation](https://tailwindcss.com/docs/installation).
-- For more information about Daisy UI, check out [Daisy UI's official documentation](https://daisyui.com/docs/use/).
+- For more information about daisyUI, check out [daisyUI's official documentation](https://daisyui.com/docs/use/).
 
 ## Tooling
 
@@ -43,15 +43,15 @@ The [official plugins](https://tailwindcss.com/docs/plugins#official-plugins) ar
 - [@tailwindcss/line-clamp](https://github.com/tailwindlabs/tailwindcss-line-clamp)
 - [@tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
 
-#### Daisy UI
+#### daisyUI
 
 *"The most popular, free and open-source Tailwind CSS component library"*.
 
-[Daisy UI](https://daisyui.com/): a Tailwind CSS classes component library, aiming to work on all frameworks. The CSS nature of Daisy UI makes Elm integration possible and a breeze to use. Examples included:
+[daisyUI](https://daisyui.com/): a Tailwind CSS classes component library, aiming to work on all frameworks. The CSS nature of daisyUI makes Elm integration possible and a breeze to use. Examples included:
 
-- the whole page is a Daisy UI [hero](https://daisyui.com/components/hero/) section
-- the counter buttons are Daisy UI [buttons](https://daisyui.com/components/button/)
-- basic Daisy UI 'light' and 'dark' [theming](https://daisyui.com/docs/themes/)/[coloring](https://daisyui.com/docs/colors/) (via Elm ports)
+- the whole page is a daisyUI [hero](https://daisyui.com/components/hero/) section
+- the counter buttons are daisyUI [buttons](https://daisyui.com/components/button/)
+- basic daisyUI 'light' and 'dark' [theming](https://daisyui.com/docs/themes/)/[coloring](https://daisyui.com/docs/colors/) (via Elm ports)
 
 ### Node
 
