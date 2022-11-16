@@ -205,7 +205,7 @@ docs =
                     , Attr.target "_blank"
                     , Attr.rel "noreferrer noopener"
                     ]
-                    [ text "DaisyUI Documentation" ]
+                    [ text "daisyUI Documentation" ]
                 ]
             ]
         ]
