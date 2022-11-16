@@ -1,6 +1,6 @@
 # Vite, Elm, Tailwind CSS, and daisyUI
 
-Opinionated template for building [Elm](https://elm-lang.org/) applications using [Vite JS](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and [daisyUI](https://daisyui.com/).
+Opinionated template for building [Elm](https://elm-lang.org/) web applications using [Vite JS](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and [daisyUI](https://daisyui.com/).
 
 - To learn more about Elm, check out [Elm's official homepage](https://elm-lang.org/).
 - For more information about Vite JS, check out [Vite JS's official documentation](https://vitejs.dev/).
@@ -15,7 +15,6 @@ Opinionated template for building [Elm](https://elm-lang.org/) applications usin
 - [vite-plugin-webfont-dl](https://github.com/feat-agency/vite-plugin-webfont-dl): inject [Google Fonts](https://fonts.google.com/) to improve website's performance.
 - [vite-plugin-compression](https://github.com/vbenjs/vite-plugin-compression): compress resources to improve website's performance.
 - [vite-plugin-imagemin](https://github.com/vbenjs/vite-plugin-imagemin): compress image assets to improve website's performance.
-- [vite-plugin-csp](https://github.com/josh-hemphill/vite-plugin-csp/): create typed [CSP ```<meta>``` policies](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) and validated interdependant headers.
 
 ### Elm
 
@@ -32,7 +31,10 @@ Shortlist of Elm packages that could be beneficial. Included as suggestions:
 - [tesk9/accessible-html](https://package.elm-lang.org/packages/tesk9/accessible-html/latest/): makes writing accessible websites easier.
 - [lattyware/elm-fontawesome](https://package.elm-lang.org/packages/lattyware/elm-fontawesome/latest/): native [Font Awesome](https://fontawesome.com/) integration and support.
 
-To remove them: 1) feel free to not use them, and 2) run ```npm run review```.
+To remove them feel free:
+
+   1. not to use them
+   2. run ```npm run review```
 
 ### Tailwind CSS
 
@@ -51,11 +53,12 @@ The [official plugins](https://tailwindcss.com/docs/plugins#official-plugins) ar
 
 - the whole page is a daisyUI [hero](https://daisyui.com/components/hero/) section
 - the counter buttons are daisyUI [buttons](https://daisyui.com/components/button/)
-- basic daisyUI 'light' and 'dark' [theming](https://daisyui.com/docs/themes/)/[coloring](https://daisyui.com/docs/colors/) (via Elm ports)
+- basic daisyUI 'light' and 'dark' [theming](https://daisyui.com/docs/themes/)/[coloring](https://daisyui.com/docs/colors/) (via [Elm ports](https://guide.elm-lang.org/interop/ports.html))
 
 ### Node
 
-- [nvm](https://github.com/nvm-sh/nvm): easily and consistently manage Node. (```.nvimrc``` provided).
+- [nvm](https://github.com/nvm-sh/nvm): easily and consistently manage Node.
+- ```.nvimrc``` set to use latest `lts/gallium`.
 
 ### VS Code
 
@@ -75,14 +78,6 @@ The [official plugins](https://tailwindcss.com/docs/plugins#official-plugins) ar
 #### Elm + Tailwind CSS
 
 - [@max_hoffmann](https://twitter.com/max_hoffmann) amazing [Tailwind CSS in Elm for VSCode](https://max.hn/thoughts/using-tailwind-css-in-elm-and-vscode) changes are implemented.
-
-#### Git, GitLab, GitHub
-
-For consistent ```git``` management, the following extensions and their settings are provided:
-
-- [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
-- [GitHub PRs and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 
 ## Get Started
 
