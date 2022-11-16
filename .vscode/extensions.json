@@ -10,9 +10,7 @@
     "tamasfe.even-better-toml",
     "bradlc.vscode-tailwindcss",
     "ecmel.vscode-html-css",
-    "zignd.html-css-class-completion",
-    "gitlab.gitlab-workflow",
-    "github.vscode-pull-request-github"
+    "zignd.html-css-class-completion"
   ],
   "unwantedRecommendations": []
 }

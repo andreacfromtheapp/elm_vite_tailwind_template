@@ -19,13 +19,6 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.showPushSuccessNotification": true,
-  "gitlens.defaultDateFormat": "ddd, MMM Do YYYY, h:mm:ss A",
-  "gitlens.defaultDateShortFormat": "YYYY MMM D hA",
-  "gitlens.keymap": "chorded",
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlab.showPipelineUpdateNotifications": true,
-  "gitlab.showIssueLinkOnStatusBar": true,
-  "gitlab.showMrStatusOnStatusBar": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "html-css-class-completion.enableEmmetSupport": true,
   "javascript.validate.enable": false,
@@ -81,13 +74,16 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[graphql]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
   "yaml.customTags": [
     "!encrypted/pkcs1-oaep scalar",
