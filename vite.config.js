@@ -7,7 +7,7 @@ import viteCompression from 'vite-plugin-compression'
 export default defineConfig({
   plugins: [
     elmPlugin(),
-    ViteWebfontDownload(),
+    ViteWebfontDownload(['https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600&display=swap']),
     viteImagemin({
       gifsicle: {
         optimizationLevel: 3,
