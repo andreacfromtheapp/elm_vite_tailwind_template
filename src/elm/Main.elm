@@ -181,11 +181,11 @@ docs =
                 ]
             , td [ Attr.class <| borders ++ " " ++ hovering ]
                 [ a
-                    [ Attr.href "https://tailwindcss.com/docs/installation"
+                    [ Attr.href "https://daisyui.com/docs/use/"
                     , Attr.target "_blank"
                     , Attr.rel "noreferrer noopener"
                     ]
-                    [ text "Tailwind Documentation" ]
+                    [ text "daisyUI Documentation" ]
                 ]
             ]
         , tr []
@@ -201,11 +201,11 @@ docs =
                 ]
             , td [ Attr.class <| borders ++ " " ++ hovering ]
                 [ a
-                    [ Attr.href "https://daisyui.com/docs/use/"
+                    [ Attr.href "https://tailwindcss.com/docs/installation"
                     , Attr.target "_blank"
                     , Attr.rel "noreferrer noopener"
                     ]
-                    [ text "daisyUI Documentation" ]
+                    [ text "Tailwind Documentation" ]
                 ]
             ]
         ]
