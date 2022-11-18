@@ -23,15 +23,15 @@ repos:
         args: [--fix]
 
   - repo: https://github.com/thibaudcolas/pre-commit-stylelint
-    rev: v14.14.1
+    rev: v14.15.0
     files: "./src/**/*.(css|scss|sass)"
     hooks:
       - id: stylelint
         args: [--fix]
         additional_dependencies:
-          - stylelint@14.14.1
+          - stylelint@14.15.0
           - stylelint-config-html@1.1.0
-          - stylelint-config-prettier@9.0.3
+          - stylelint-config-prettier@9.0.4
           - stylelint-config-prettier-scss@0.0.1
           - stylelint-config-standard@29.0.0
           - stylelint-config-standard-scss@6.1.0
