@@ -11,17 +11,14 @@ module.exports = {
       sans: ['Lexend Deca', 'sans-serif']
     }
   },
-  // https://tailwindcss.com/docs/plugins#official-plugins
-  plugins: [
+  plugins: [ // https://tailwindcss.com/docs/plugins#official-plugins
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/line-clamp'),
     require('@tailwindcss/aspect-ratio'),
-    // https://daisyui.com/docs/install/
-    require('daisyui')
+    require('daisyui') // https://daisyui.com/docs/install/
   ],
-  // daisyUI config (optional)
-  daisyui: {
+  daisyui: { // daisyUI config (optional)
     themes: ['light', 'dark']
   }
 }

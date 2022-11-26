@@ -69,7 +69,6 @@ The [official plugins](https://tailwindcss.com/docs/plugins#official-plugins) ar
 
 - [Elm Format](https://github.com/avh4/elm-format)
 - [StandardJS](https://standardjs.com/)
-- [Stylelint](https://stylelint.io/)
 - [Prettier](https://prettier.io/)
 - [Markdown Lint](https://github.com/DavidAnson/markdownlint)
 - [Red Hat YAML](https://github.com/redhat-developer/vscode-yaml) (LSP)
@@ -105,18 +104,17 @@ Most likely, ```npx degit``` would invoke ```degit```. A locally installed binar
 
 ### Available Commands
 
-| script      | action                                       |
-| ----------- | -------------------------------------------- |
-| postinstall | elm-tooling install                          |
-| dev         | vite                                         |
-| prebuild    | elm-tooling install                          |
-| build       | vite build                                   |
-| preview     | npm run build; vite preview                  |
-| standard    | standard --fix src/**/*.js                   |
-| markdown    | standard-markdown --fix src/**/*.md          |
-| stylelint   | stylelint --fix "src/**/*.(css\|scss\|sass)" |
-| review      | elm-review --fix-all                         |
-| test        | elm-test-rs                                  |
+| script      | action                              |
+| ----------- | ----------------------------------- |
+| postinstall | elm-tooling install                 |
+| dev         | vite                                |
+| prebuild    | elm-tooling install                 |
+| build       | vite build                          |
+| preview     | npm run build; vite preview         |
+| standard    | standard --fix src/**/*.js          |
+| markdown    | standard-markdown --fix src/**/*.md |
+| review      | elm-review --fix-all                |
+| test        | elm-test-rs                         |
 
 ## Contributing
 
