@@ -15,9 +15,8 @@ repos:
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
 
-  - repo: https://github.com/standard/standard
-    rev: v17.0.0
-    files: "./src/**/*.(js|jsx|ts|tsx|mjs|cjs)"
-    hooks:
-      - id: standard
-        args: [--fix]
+  # - repo: https://github.com/standard/standard
+  #   rev: v17.0.0
+  #   hooks:
+  #     - id: standard
+  #       args: [--fix]

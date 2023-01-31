@@ -3,7 +3,7 @@ module.exports = {
     './index.html',
     './src/js/main.js',
     './src/css/styles.css',
-    './src/elm/*.elm'
+    './src/elm/**/*.elm'
   ],
   theme: {
     extend: {},
