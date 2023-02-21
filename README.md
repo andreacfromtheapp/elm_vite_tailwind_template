@@ -124,7 +124,8 @@ issues](https://github.com/tiged/tiged#why-fork=), and should be preferred. To
 install it, run:
 
 ```bash
-npm uninstall -g degit npm install -g tiged
+npm uninstall -g degit
+npm install -g tiged
 ```
 
 Most likely, `npx degit` would invoke `degit`. A locally installed
