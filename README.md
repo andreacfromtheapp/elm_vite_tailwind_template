@@ -54,7 +54,7 @@ Shortlist of Elm packages that could be beneficial. Included as suggestions:
 To remove them feel free:
 
    1. not to use them
-   2. run ```npm run review```
+   2. run `npm run review`
 
 ### Tailwind CSS
 
@@ -85,7 +85,7 @@ integration possible and a breeze to use. Examples included:
 ### Node
 
 - [fnm](https://github.com/Schniz/fnm): easily and consistently manage Node.
-- ```.nvimrc``` set to use latest `lts/hydrogen`.
+- `.nvimrc` set to use latest `lts/hydrogen`.
 
 ### VS Code
 
@@ -115,27 +115,29 @@ integration possible and a breeze to use. Examples included:
 
 ### Install tiged
 
-To clone this repository, devoid of ```.git```, you can either use ```npx
-degit``` or install ```tiged``` locally and run ```degit``` without ```npx```.
+To clone this repository, devoid of `.git`, you can either use `npx
+degit` or install `tiged` locally and run `degit` without `npx`.
 YMMV.
 
 [Tiged is a fork that addresses a number of
 issues](https://github.com/tiged/tiged#why-fork=), and should be preferred. To
 install it, run:
 
-```bash npm uninstall -g degit npm install -g tiged```
+```bash
+npm uninstall -g degit npm install -g tiged
+```
 
-Most likely, ```npx degit``` would invoke ```degit```. A locally installed
-binary makes sure you are running ```tiged``` instead.
+Most likely, `npx degit` would invoke `degit`. A locally installed
+binary makes sure you are running `tiged` instead.
 
 ### Peruse the template
 
 1. Clone the template:
-   1. using npx: ```npx degit gacallea/elm_vite_tailwind_template my-elm-app```
-   2. local binary: ```degit gacallea/elm_vite_tailwind_template my-elm-app```
-2. Enter the project: ```cd my-elm-app```
-3. Install dependencies: ```npm install```
-4. Start developing: ```npm run dev```
+   1. using npx: `npx degit gacallea/elm_vite_tailwind_template my-elm-app`
+   2. local binary: `degit gacallea/elm_vite_tailwind_template my-elm-app`
+2. Enter the project: `cd my-elm-app`
+3. Install dependencies: `npm install`
+4. Start developing: `npm run dev`
 
 ### Available Commands
 
