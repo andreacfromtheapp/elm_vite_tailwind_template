@@ -53,8 +53,8 @@ Shortlist of Elm packages that could be beneficial. Included as suggestions:
 
 To remove them feel free:
 
-   1. not to use them
-   2. run `npm run review`
+1. not to use them
+2. run `npm run review`
 
 ### Tailwind CSS
 
@@ -63,12 +63,12 @@ are installed by default:
 
 - [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
 - [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
-- [@tailwindcss/line-clamp](https://github.com/tailwindlabs/tailwindcss-line-clamp)
+- [@tailwindcss/container-queries](https://github.com/tailwindlabs/tailwindcss-container-queries)
 - [@tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
 
 #### daisyUI
 
-*"The most popular, free and open-source Tailwind CSS component library"*.
+_"The most popular, free and open-source Tailwind CSS component library"_.
 
 [daisyUI](https://daisyui.com/): a Tailwind CSS classes component library,
 aiming to work on all frameworks. The CSS nature of daisyUI makes Elm
@@ -142,17 +142,17 @@ binary makes sure you are running `tiged` instead.
 
 ### Available Commands
 
-| script      | action                              |
-| ----------- | ----------------------------------- |
-| postinstall | elm-tooling install                 |
-| dev         | vite                                |
-| prebuild    | elm-tooling install                 |
-| build       | vite build                          |
-| preview     | npm run build; vite preview         |
-| standard    | standard --fix src/**/*.js          |
-| markdown    | standard-markdown --fix src/**/*.md |
-| review      | elm-review --fix-all                |
-| test        | elm-test-rs                         |
+| script      | action                               |
+| ----------- | ------------------------------------ |
+| postinstall | elm-tooling install                  |
+| dev         | vite                                 |
+| prebuild    | elm-tooling install                  |
+| build       | vite build                           |
+| preview     | npm run build; vite preview          |
+| standard    | standard --fix src/\*_/_.js          |
+| markdown    | standard-markdown --fix src/\*_/_.md |
+| review      | elm-review --fix-all                 |
+| test        | elm-test-rs                          |
 
 ## Contributing
 
