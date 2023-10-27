@@ -17,7 +17,7 @@
     "prettier": "^3.0.3",
     "standard": "^17.1.0",
     "standard-markdown": "^7.1.0",
-    "tailwindcss": "^3.3.3",
+    "tailwindcss": "^3.3.5",
     "vite": "^4.5.0",
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-elm": "^2.8.0",
@@ -43,6 +43,6 @@
     ]
   },
   "dependencies": {
-    "daisyui": "^3.9.3"
+    "daisyui": "^3.9.4"
   }
 }
