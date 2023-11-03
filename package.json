@@ -22,7 +22,7 @@
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-elm": "^2.8.0",
     "vite-plugin-imagemin": "^0.6.1",
-    "vite-plugin-webfont-dl": "^3.7.6"
+    "vite-plugin-webfont-dl": "^3.8.0"
   },
   "scripts": {
     "postinstall": "elm-tooling install",
