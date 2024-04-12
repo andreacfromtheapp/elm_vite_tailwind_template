@@ -85,7 +85,7 @@ integration possible and a breeze to use. Examples included:
 ### Node
 
 - [fnm](https://github.com/Schniz/fnm): easily and consistently manage Node.
-- `.nvimrc` set to use latest `lts/hydrogen`.
+- `.nvimrc` set to use latest `lts/iron`.
 
 ### VS Code
 
