@@ -1,28 +1,29 @@
 {
   "name": "vite_elm_tailwind",
+  "type": "module",
   "author": "Andrea Callea",
   "description": "Elm, Vite, Tailwind CSS + daisyUI, template :)",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": true,
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/container-queries": "^0.1.1",
-    "@tailwindcss/forms": "^0.5.6",
-    "@tailwindcss/typography": "^0.5.10",
-    "autoprefixer": "^10.4.16",
-    "elm-review": "^2.10.3",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.12",
+    "autoprefixer": "^10.4.19",
+    "elm-review": "^2.11.1",
     "elm-test": "^0.19.1-revision12",
-    "elm-tooling": "^1.15.0",
-    "postcss": "^8.4.31",
-    "prettier": "^3.0.3",
+    "elm-tooling": "^1.15.1",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
     "standard": "^17.1.0",
     "standard-markdown": "^7.1.0",
-    "tailwindcss": "^3.3.5",
-    "vite": "^4.5.0",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.8",
     "vite-plugin-compression": "^0.5.1",
-    "vite-plugin-elm": "^2.8.0",
+    "vite-plugin-elm": "^3.0.0",
     "vite-plugin-imagemin": "^0.6.1",
-    "vite-plugin-webfont-dl": "^3.8.0"
+    "vite-plugin-webfont-dl": "^3.9.3"
   },
   "scripts": {
     "postinstall": "elm-tooling install",
@@ -43,6 +44,6 @@
     ]
   },
   "dependencies": {
-    "daisyui": "^3.9.4"
+    "daisyui": "^4.10.1"
   }
 }
