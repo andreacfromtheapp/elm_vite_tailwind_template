@@ -5,13 +5,13 @@ using [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/),
 and [daisyUI](https://daisyui.com/).
 
 - To learn more about Elm, check out [Elm's official
-  homepage](https://elm-lang.org/).
+  homepage](https://elm-lang.org).
 - For more information about Vite JS, check out [Vite JS's official
-  documentation](https://vitejs.dev/).
+  homepage](https://vitejs.dev).
 - For more information about Tailwind CSS, check out [Tailwind CSS's official
-  documentation](https://tailwindcss.com/docs/installation).
+  homepage](https://tailwindcss.com).
 - For more information about daisyUI, check out [daisyUI's official
-  documentation](https://daisyui.com/docs/use/).
+  homepage](https://daisyui.com).
 
 ## Tooling
 
@@ -58,13 +58,7 @@ To remove them feel free:
 
 ### Tailwind CSS
 
-The [official plugins](https://tailwindcss.com/docs/plugins#official-plugins)
-are installed by default:
-
-- [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
-- [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
-- [@tailwindcss/container-queries](https://github.com/tailwindlabs/tailwindcss-container-queries)
-- [@tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
+This templates has been updated to use TailwindCSS v4 without plugins.
 
 #### daisyUI
 
@@ -85,7 +79,7 @@ integration possible and a breeze to use. Examples included:
 ### Node
 
 - [fnm](https://github.com/Schniz/fnm): easily and consistently manage Node.
-- `.nvimrc` set to use latest `lts/iron`.
+- `.nvimrc` set to use latest `lts/jod`.
 
 ### VS Code
 
@@ -95,15 +89,6 @@ integration possible and a breeze to use. Examples included:
   settings](https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings).
 - [VS Code](https://code.visualstudio.com/) will prompt you to install them
   when you open the workspace for the first time.
-
-#### Lint/Format
-
-- [Elm Format](https://github.com/avh4/elm-format)
-- [StandardJS](https://standardjs.com/)
-- [Prettier](https://prettier.io/)
-- [Markdown Lint](https://github.com/DavidAnson/markdownlint)
-- [Red Hat YAML](https://github.com/redhat-developer/vscode-yaml) (LSP)
-- [Even Better TOML](https://taplo.tamasfe.dev/)
 
 #### Elm + Tailwind CSS
 
@@ -134,39 +119,29 @@ binary makes sure you are running `tiged` instead.
 ### Peruse the template
 
 1. Clone the template:
-   1. using npx: `npx degit gacallea/elm_vite_tailwind_template my-elm-app`
-   2. local binary: `degit gacallea/elm_vite_tailwind_template my-elm-app`
+   1. using npx: `npx degit andreacfromtheapp/elm_vite_tailwind_template my-elm-app`
+   2. local binary: `degit andreacfromtheapp/elm_vite_tailwind_template my-elm-app`
 2. Enter the project: `cd my-elm-app`
 3. Install dependencies: `npm install`
 4. Start developing: `npm run dev`
 
 ### Available Commands
 
-| script      | action                               |
-| ----------- | ------------------------------------ |
-| postinstall | elm-tooling install                  |
-| dev         | vite                                 |
-| prebuild    | elm-tooling install                  |
-| build       | vite build                           |
-| preview     | npm run build; vite preview          |
-| standard    | standard --fix src/\*_/_.js          |
-| markdown    | standard-markdown --fix src/\*_/_.md |
-| review      | elm-review --fix-all                 |
-| test        | elm-test-rs                          |
+| script      | action                      |
+| ----------- | --------------------------- |
+| postinstall | elm-tooling install         |
+| dev         | vite                        |
+| prebuild    | elm-tooling install         |
+| build       | vite build                  |
+| preview     | npm run build; vite preview |
+| review      | elm-review --fix-all        |
+| test        | elm-test-rs                 |
 
 ## Contributing
 
 Contributions and constructive criticism are welcome. If you think I'm
 overdoing it, feel free to discuss. I'm still experimenting with this, as a
 learning opportunity, and I strive to improve the template as much as possible.
-
-### pre-commit hooks (WIP)
-
-This repo relies on [pre-commit-ci](https://pre-commit.ci) to make sure all
-suggested coding standards are enforced with [git
-hooks](https://githooks.com/). You could also install
-[pre-commit](https://pre-commit.com/#install) locally to apply the same
-[configuration](./.pre-commit-config.yaml) locally.
 
 ## Acknowledgements
 

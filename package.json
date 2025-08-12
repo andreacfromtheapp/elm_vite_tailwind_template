@@ -1,29 +1,19 @@
 {
   "name": "vite_elm_tailwind",
   "type": "module",
-  "author": "Andrea Callea",
+  "author": "Andrea C",
   "description": "Elm, Vite, Tailwind CSS + daisyUI, template :)",
   "version": "3.0.0",
   "private": true,
   "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/container-queries": "^0.1.1",
-    "@tailwindcss/forms": "^0.5.7",
-    "@tailwindcss/typography": "^0.5.13",
-    "autoprefixer": "^10.4.19",
-    "elm-review": "^2.11.2",
+    "elm-review": "^2.12.0",
     "elm-test": "^0.19.1-revision12",
     "elm-tooling": "^1.15.1",
-    "postcss": "^8.4.38",
-    "prettier": "^3.2.5",
-    "standard": "^17.1.0",
-    "standard-markdown": "^7.1.0",
-    "tailwindcss": "^3.4.3",
-    "vite": "^5.2.11",
+    "vite": "^6.0.11",
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-elm": "^3.0.1",
     "vite-plugin-imagemin": "^0.6.1",
-    "vite-plugin-webfont-dl": "^3.9.4"
+    "vite-plugin-webfont-dl": "^3.10.4"
   },
   "scripts": {
     "postinstall": "elm-tooling install",
@@ -31,19 +21,13 @@
     "prebuild": "elm-tooling install",
     "build": "vite build",
     "preview": "npm run build; vite preview",
-    "standard": "standard --fix src/**/*.js",
-    "markdown": "standard-markdown --fix src/**/*.md",
     "review": "elm-review --fix-all",
     "test": "elm-test-rs"
   },
-  "standard": {
-    "ignore": [
-      "public",
-      "dist",
-      "elm.js"
-    ]
-  },
   "dependencies": {
-    "daisyui": "^4.10.5"
+    "@tailwindcss/vite": "^4.1.11",
+    "@tailwindcss/typography": "^0.5.16",
+    "daisyui": "^5.0.0-beta.2",
+    "tailwindcss": "^4.0.0"
   }
 }

@@ -1,40 +1,46 @@
-import { defineConfig } from 'vite'
-import elmPlugin from 'vite-plugin-elm'
-import { ViteWebfontDownload } from 'vite-plugin-webfont-dl'
-import viteImagemin from 'vite-plugin-imagemin'
-import viteCompression from 'vite-plugin-compression'
+import { defineConfig } from "vite";
+import tailwindcss from '@tailwindcss/vite'
+
+import elmPlugin from "vite-plugin-elm";
+import { ViteWebfontDownload } from "vite-plugin-webfont-dl";
+import viteImagemin from "vite-plugin-imagemin";
+import viteCompression from "vite-plugin-compression";
 
 export default defineConfig({
+    build: {
+    target: 'esnext'
+  },
   plugins: [
     elmPlugin(),
-    ViteWebfontDownload(['https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600&display=swap']),
+    tailwindcss(),
+    ViteWebfontDownload(),
     viteImagemin({
       gifsicle: {
         optimizationLevel: 3,
-        interlaced: false
+        interlaced: false,
       },
       optipng: {
-        optimizationLevel: 7
+        optimizationLevel: 7,
       },
       mozjpeg: {
         quality: 80,
-        progressive: true
+        progressive: true,
       },
       pngquant: {
         quality: [0.8, 0.9],
-        speed: 10
+        speed: 10,
       },
       svgo: {
-        plugins: ['preset-default']
+        plugins: ["preset-default"],
       },
       webp: {
         quality: 80,
         method: 4,
-        nearLossless: 95
-      }
+        nearLossless: 95,
+      },
     }),
     viteCompression({
-      algorithm: 'brotliCompress'
-    })
-  ]
-})
+      algorithm: "brotliCompress",
+    }),
+  ],
+});

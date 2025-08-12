@@ -99,7 +99,7 @@ view model =
 helloWorld : Model -> Html Msg
 helloWorld model =
     div
-        [ Attr.class "hero min-h-screen bg-[url('../img/Elm_logo_blue.svg')]"
+        [ Attr.class "hero min-h-screen bg-[url(../img/Elm_logo_blue.svg)]"
         ]
         [ div
             [ Attr.class "hero-overlay"
