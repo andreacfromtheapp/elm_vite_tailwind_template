@@ -1,17 +1,17 @@
 # Vite, Elm, Tailwind CSS, and daisyUI
 
 Opinionated template for building [Elm](https://elm-lang.org/) web applications
-using [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/),
-and [daisyUI](https://daisyui.com/).
+using [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and
+[daisyUI](https://daisyui.com/).
 
-- To learn more about Elm, check out [Elm's official
-  homepage](https://elm-lang.org).
-- For more information about Vite JS, check out [Vite JS's official
-  homepage](https://vitejs.dev).
-- For more information about Tailwind CSS, check out [Tailwind CSS's official
-  homepage](https://tailwindcss.com).
-- For more information about daisyUI, check out [daisyUI's official
-  homepage](https://daisyui.com).
+- To learn more about Elm, check out
+  [Elm's official homepage](https://elm-lang.org).
+- For more information about Vite JS, check out
+  [Vite JS's official homepage](https://vitejs.dev).
+- For more information about Tailwind CSS, check out
+  [Tailwind CSS's official homepage](https://tailwindcss.com).
+- For more information about daisyUI, check out
+  [daisyUI's official homepage](https://daisyui.com).
 
 ## Tooling
 
@@ -20,7 +20,7 @@ and [daisyUI](https://daisyui.com/).
 - [vite-plugin-elm](https://github.com/hmsk/vite-plugin-elm): compile an Elm
   module with hot-module reload.
 - [vite-plugin-webfont-dl](https://github.com/feat-agency/vite-plugin-webfont-dl):
-  inject [Google Fonts](https://fonts.google.com/) to improve website's
+  inject [Bunny Fonts](https://fonts.bunny.net/) to improve website's
   performance.
 - [vite-plugin-compression](https://github.com/vbenjs/vite-plugin-compression):
   compress resources to improve website's performance.
@@ -32,8 +32,8 @@ and [daisyUI](https://daisyui.com/).
 - [elm-tooling](https://elm-tooling.github.io/elm-tooling-cli/): command line
   program that manages your Elm tools.
 - [elm-format](https://github.com/avh4/elm-format): format Elm source code
-  according to the official [Elm Style
-  Guide](https://elm-lang.org/docs/style-guide).
+  according to the official
+  [Elm Style Guide](https://elm-lang.org/docs/style-guide).
 - [elm-test](https://package.elm-lang.org/packages/elm-explorations/test/latest/):
   write [unit](https://en.wikipedia.org/wiki/Unit_testing) and
   [fuzz](https://en.wikipedia.org/wiki/Fuzzing) tests for Elm code.
@@ -58,21 +58,22 @@ To remove them feel free:
 
 ### Tailwind CSS
 
-This templates has been updated to use TailwindCSS v4 without plugins.
+This templates uses TailwindCSS 4 with the `vite`, `typography`, and `daisyUI`
+plugins.
 
 #### daisyUI
 
-_"The most popular, free and open-source Tailwind CSS component library"_.
+_"The most popular, free, and open-source Tailwind CSS component library"_.
 
 [daisyUI](https://daisyui.com/): a Tailwind CSS classes component library,
 aiming to work on all frameworks. The CSS nature of daisyUI makes Elm
 integration possible and a breeze to use. Examples included:
 
-- the whole page is a daisyUI [hero](https://daisyui.com/components/hero/)
+- The whole page is a daisyUI [hero](https://daisyui.com/components/hero/)
   section
-- the counter buttons are daisyUI
+- The counter buttons are daisyUI
   [buttons](https://daisyui.com/components/button/)
-- basic daisyUI 'light' and 'dark'
+- Basic daisyUI 'light' and 'dark'
   [theming](https://daisyui.com/docs/themes/)/[coloring](https://daisyui.com/docs/colors/)
   (via [Elm ports](https://guide.elm-lang.org/interop/ports.html))
 
@@ -83,44 +84,44 @@ integration possible and a breeze to use. Examples included:
 
 ### VS Code
 
-- This template provides both [recommended
-  extensions](https://code.visualstudio.com/docs/editor/extension-marketplace#_recommended-extensions)
-  and [workspace
-  settings](https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings).
-- [VS Code](https://code.visualstudio.com/) will prompt you to install them
-  when you open the workspace for the first time.
+- This template provides both
+  [recommended extensions](https://code.visualstudio.com/docs/editor/extension-marketplace#_recommended-extensions)
+  and
+  [workspace settings](https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings).
+- [VS Code](https://code.visualstudio.com/) will prompt you to install them when
+  you open the workspace for the first time.
 
 #### Elm + Tailwind CSS
 
-- [@max_hoffmann](https://twitter.com/max_hoffmann) amazing [Tailwind CSS in
-  Elm for VSCode](https://max.hn/thoughts/using-tailwind-css-in-elm-and-vscode)
+- [@max_hoffmann](https://twitter.com/max_hoffmann) amazing
+  [Tailwind CSS in Elm for VSCode](https://max.hn/thoughts/using-tailwind-css-in-elm-and-vscode)
   changes are implemented.
 
 ## Get Started
 
 ### Install tiged
 
-To clone this repository, devoid of `.git`, you can either use `npx
-degit` or install `tiged` locally and run `degit` without `npx`.
-YMMV.
+To clone this repository, devoid of `.git`, you can either use `npx degit` or
+install `tiged` locally and run `degit` without `npx`. YMMV.
 
-[Tiged is a fork that addresses a number of
-issues](https://github.com/tiged/tiged#why-fork=), and should be preferred. To
-install it, run:
+[Tiged is a fork that addresses a number of issues](https://github.com/tiged/tiged#why-fork=),
+and should be preferred. To install it, run:
 
 ```bash
 npm uninstall -g degit
 npm install -g tiged
 ```
 
-Most likely, `npx degit` would invoke `degit`. A locally installed
-binary makes sure you are running `tiged` instead.
+Most likely, `npx degit` would invoke `degit`. A locally installed binary makes
+sure you are running `tiged` instead.
 
 ### Peruse the template
 
 1. Clone the template:
-   1. using npx: `npx degit andreacfromtheapp/elm_vite_tailwind_template my-elm-app`
-   2. local binary: `degit andreacfromtheapp/elm_vite_tailwind_template my-elm-app`
+   1. using npx:
+      `npx degit andreacfromtheapp/elm_vite_tailwind_template my-elm-app`
+   2. local binary:
+      `degit andreacfromtheapp/elm_vite_tailwind_template my-elm-app`
 2. Enter the project: `cd my-elm-app`
 3. Install dependencies: `npm install`
 4. Start developing: `npm run dev`
@@ -139,11 +140,12 @@ binary makes sure you are running `tiged` instead.
 
 ## Contributing
 
-Contributions and constructive criticism are welcome. If you think I'm
-overdoing it, feel free to discuss. I'm still experimenting with this, as a
-learning opportunity, and I strive to improve the template as much as possible.
+Contributions and constructive criticism are welcome. If you think I'm overdoing
+it, feel free to discuss. I'm still experimenting with this, as a learning
+opportunity, and I strive to improve the template as much as possible.
 
 ## Acknowledgements
 
-This templated was inspired by [Lindsay K
-Wardell](https://github.com/lindsaykwardell/vite-elm-template)'s template.
+This templated was inspired by
+[Lindsay K Wardell](https://github.com/lindsaykwardell/vite-elm-template)'s
+template.
