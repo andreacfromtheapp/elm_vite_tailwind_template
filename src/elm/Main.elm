@@ -1,4 +1,4 @@
-port module Main exposing (Model, Msg(..), helloWorld, initialModel, main)
+module Main exposing (Model, Msg(..), helloWorld, initialModel, main)
 
 import Accessibility.Aria as Aria
 import Browser
@@ -41,7 +41,6 @@ elmLogo =
 type Msg
     = Increment
     | Decrement
-    | ChangeTheme String
 
 
 
@@ -49,8 +48,7 @@ type Msg
 
 
 type alias Model =
-    { theme : String
-    , count : Int
+    { count : Int
     }
 
 
@@ -60,8 +58,7 @@ type alias Model =
 
 initialModel : ( Model, Cmd Msg )
 initialModel =
-    ( { theme = "light"
-      , count = 0
+    ( { count = 0
       }
     , doNothingCmd
     )
@@ -121,34 +118,10 @@ helloWorld model =
                     [ Attr.class "mb-2 text-5xl font-bold"
                     ]
                     [ text "Hello, Vite + Tailwind + Elm!" ]
-                , themes
                 , docs
                 , counter model
                 , githubLink
                 ]
-            ]
-        ]
-
-
-themes : Html Msg
-themes =
-    div
-        [ Aria.label "Theme Selector"
-        , Attr.class "mt-4"
-        ]
-        [ button
-            [ Attr.class "btn btn-ghost btn-circle text-3xl"
-            , Aria.label "light theme"
-            , onClick (ChangeTheme "light")
-            ]
-            [ Icon.view Icon.sun
-            ]
-        , button
-            [ Attr.class "btn btn-ghost btn-circle text-3xl"
-            , Aria.label "dark theme"
-            , onClick (ChangeTheme "dark")
-            ]
-            [ Icon.view Icon.moon
             ]
         ]
 
@@ -252,11 +225,6 @@ counter model =
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        ChangeTheme string ->
-            ( model
-            , changeTheme string
-            )
-
         Increment ->
             ( { model | count = model.count + 1 }
             , Cmd.none
@@ -284,10 +252,3 @@ doNothingCmd =
 subscriptions : Model -> Sub Msg
 subscriptions _ =
     Sub.none
-
-
-
--- PORTS
-
-
-port changeTheme : String -> Cmd msg
