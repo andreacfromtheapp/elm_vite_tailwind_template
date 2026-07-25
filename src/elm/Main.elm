@@ -22,7 +22,6 @@ import Html
         )
 import Html.Attributes as Attr
 import Html.Events exposing (onClick)
-import VitePluginHelper
 
 
 
@@ -31,7 +30,7 @@ import VitePluginHelper
 
 elmLogo : String
 elmLogo =
-    VitePluginHelper.asset "../img/Elm_logo.svg"
+    "/elmLogo.svg"
 
 
 
@@ -96,7 +95,7 @@ view model =
 helloWorld : Model -> Html Msg
 helloWorld model =
     div
-        [ Attr.class "hero min-h-screen bg-[url(../img/Elm_logo_blue.svg)]"
+        [ Attr.class "hero min-h-screen bg-[url(/elmLogoBlue.svg)]"
         ]
         [ div
             [ Attr.class "hero-overlay"
@@ -120,7 +119,7 @@ helloWorld model =
                     [ text "Hello, Vite + Tailwind + Elm!" ]
                 , docs
                 , counter model
-                , githubLink
+                , repoLink
                 ]
             ]
         ]
@@ -184,15 +183,15 @@ docs =
         ]
 
 
-githubLink : Html msg
-githubLink =
+repoLink : Html msg
+repoLink =
     div [ Attr.class "text-2xl" ]
         [ a
-            [ Attr.href "https://github.com/gacallea/elm_vite_tailwind_template"
+            [ Attr.href "https://codeberg.org/andreacfromtheapp/elm_vite_tailwind_template"
             , Attr.target "_blank"
             , Attr.rel "noreferrer noopener"
             ]
-            [ Icon.view Icon.github ]
+            [ Icon.view Icon.gitAlt ]
         ]
 
 

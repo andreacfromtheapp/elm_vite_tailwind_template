@@ -1,7 +1,7 @@
-import '../css/styles.css'
-import { Elm } from '../elm/Main.elm'
+import "../css/styles.css";
+import Main from "../elm/Main.elm";
 
 // Start the Elm application.
-const app = Elm.Main.init({
-  node: document.querySelector('main')
-})
+const app = Main.init({
+	node: document.querySelector("main"),
+});

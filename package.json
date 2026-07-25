@@ -1,33 +1,28 @@
 {
-  "name": "vite_elm_tailwind",
-  "type": "module",
-  "author": "Andrea C",
-  "description": "Elm, Vite, Tailwind CSS + daisyUI, template :)",
-  "version": "3.0.0",
-  "private": true,
-  "devDependencies": {
-    "elm-review": "^2.13.4",
-    "elm-test": "^0.19.1-revision16",
-    "elm-tooling": "^1.16.0",
-    "vite": "^7.1.7",
-    "vite-plugin-compression": "^0.5.1",
-    "vite-plugin-elm": "^3.0.1",
-    "vite-plugin-imagemin": "^0.6.1",
-    "vite-plugin-webfont-dl": "^3.11.1"
-  },
-  "scripts": {
-    "postinstall": "elm-tooling install",
-    "dev": "vite",
-    "prebuild": "elm-tooling install",
-    "build": "vite build",
-    "preview": "npm run build; vite preview",
-    "review": "elm-review --fix-all",
-    "test": "elm-test-rs"
-  },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.13",
-    "@tailwindcss/typography": "^0.5.19",
-    "daisyui": "^5.1.24",
-    "tailwindcss": "^4.1.13"
-  }
+	"name": "vite_elm_tailwind",
+	"type": "module",
+	"author": "Andrea C",
+	"description": "Elm, Vite, Tailwind CSS + daisyUI, template :)",
+	"version": "4.0.0",
+	"private": true,
+	"devDependencies": {
+		"vite": "^8.1.5",
+		"vite-plugin-compression": "^0.5.1",
+		"vite-plugin-elm-watch": "^2.0.0",
+		"vite-plugin-imagemin": "^0.6.1",
+		"vite-plugin-webfont-dl": "^3.12.0"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "npm run build; vite preview",
+		"review": "elm-review --fix-all",
+		"test": "elm-test-rs"
+	},
+	"dependencies": {
+		"@tailwindcss/typography": "^0.5.20",
+		"@tailwindcss/vite": "^4.3.3",
+		"daisyui": "^5.7.4",
+		"tailwindcss": "^4.3.3"
+	}
 }
