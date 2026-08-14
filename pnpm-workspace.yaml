@@ -1,0 +1,11 @@
+allowBuilds:
+  cwebp-bin: true
+  elm: true
+  esbuild: true
+  gifsicle: true
+  jpegtran-bin: true
+  mozjpeg: true
+  optipng-bin: true
+  pngquant-bin: true
+minimumReleaseAgeExclude:
+  - daisyui@5.7.17
